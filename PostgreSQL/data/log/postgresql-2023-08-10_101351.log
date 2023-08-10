@@ -1,0 +1,64 @@
+2023-08-10 10:13:51.266 CDT [9716] LOG:  el sistema de bases de datos fue apagado en 2023-08-10 10:13:41 CDT
+2023-08-10 10:13:51.301 CDT [7428] LOG:  el sistema de bases de datos est� listo para aceptar conexiones
+2023-08-10 12:52:23.572 CDT [5088] ERROR:  no se pudo serializar el acceso debido a un update concurrente
+2023-08-10 12:52:23.572 CDT [5088] SENTENCIA:  DELETE FROM ir_attachment WHERE id IN (
+	            SELECT id FROM ir_attachment WHERE id in (507) FOR NO KEY UPDATE SKIP LOCKED
+	        )
+2023-08-10 12:52:50.305 CDT [9968] ERROR:  no se pudo serializar el acceso debido a un update concurrente
+2023-08-10 12:52:50.305 CDT [9968] SENTENCIA:  DELETE FROM ir_attachment WHERE id IN (
+	            SELECT id FROM ir_attachment WHERE id in (515) FOR NO KEY UPDATE SKIP LOCKED
+	        )
+2023-08-10 13:35:13.658 CDT [5088] ERROR:  el valor null para la columna «url» viola la restricción not null
+2023-08-10 13:35:13.658 CDT [5088] DETALLE:  La fila que falla contiene (527, null, 2, 2, ir.actions.act_url, action, list,form, {"en_US": "https://disponibles-maimex.glide.page/dl/a400f7", "es..., null, 2023-08-10 18:35:13.651074, 2023-08-10 18:35:13.651074, new, null).
+2023-08-10 13:35:13.658 CDT [5088] SENTENCIA:  INSERT INTO "ir_act_url" ("binding_type", "binding_view_types", "create_date", "create_uid", "name", "target", "type", "write_date", "write_uid") VALUES ('action', 'list,form', '2023-08-10 18:35:13.651074', 2, '{"en_US": "https://disponibles-maimex.glide.page/dl/a400f7", "es_MX": "https://disponibles-maimex.glide.page/dl/a400f7"}', 'new', 'ir.actions.act_url', '2023-08-10 18:35:13.651074', 2) RETURNING "id"
+2023-08-10 13:36:51.371 CDT [7756] ERROR:  el valor null para la columna «url» viola la restricción not null
+2023-08-10 13:36:51.371 CDT [7756] DETALLE:  La fila que falla contiene (528, null, 2, 2, ir.actions.act_url, action, list,form, {"en_US": "https://disponibles-maimex.glide.page/dl/a400f7", "es..., null, 2023-08-10 18:36:51.345434, 2023-08-10 18:36:51.345434, new, null).
+2023-08-10 13:36:51.371 CDT [7756] SENTENCIA:  INSERT INTO "ir_act_url" ("binding_type", "binding_view_types", "create_date", "create_uid", "name", "target", "type", "write_date", "write_uid") VALUES ('action', 'list,form', '2023-08-10 18:36:51.345434', 2, '{"en_US": "https://disponibles-maimex.glide.page/dl/a400f7", "es_MX": "https://disponibles-maimex.glide.page/dl/a400f7"}', 'new', 'ir.actions.act_url', '2023-08-10 18:36:51.345434', 2) RETURNING "id"
+2023-08-10 14:11:24.365 CDT [9992] ERROR:  no se pudo serializar el acceso debido a un update concurrente
+2023-08-10 14:11:24.365 CDT [9992] SENTENCIA:  DELETE FROM ir_attachment WHERE id IN (
+	            SELECT id FROM ir_attachment WHERE id in (570) FOR NO KEY UPDATE SKIP LOCKED
+	        )
+2023-08-10 14:11:33.944 CDT [9760] ERROR:  no se pudo serializar el acceso debido a un update concurrente
+2023-08-10 14:11:33.944 CDT [9760] SENTENCIA:  DELETE FROM ir_attachment WHERE id IN (
+	            SELECT id FROM ir_attachment WHERE id in (571) FOR NO KEY UPDATE SKIP LOCKED
+	        )
+2023-08-10 14:11:33.947 CDT [9760] ERROR:  transacción abortada, las órdenes serán ignoradas hasta el fin de bloque de transacción
+2023-08-10 14:11:33.947 CDT [9760] SENTENCIA:  SELECT "ir_ui_view".id FROM "ir_ui_view" LEFT JOIN "website" AS "ir_ui_view__website_id" ON ("ir_ui_view"."website_id" = "ir_ui_view__website_id"."id") WHERE (("ir_ui_view"."active" = true) AND (("ir_ui_view"."key" = 'http_routing.http_error') AND (("ir_ui_view"."website_id" in (1)) OR "ir_ui_view"."website_id" IS NULL))) ORDER BY  "ir_ui_view__website_id"."sequence" ,"ir_ui_view__website_id"."id"   LIMIT 1
+2023-08-10 14:11:34.084 CDT [8776] ERROR:  no se pudo serializar el acceso debido a un update concurrente
+2023-08-10 14:11:34.084 CDT [8776] SENTENCIA:  DELETE FROM ir_attachment WHERE id IN (
+	            SELECT id FROM ir_attachment WHERE id in (571) FOR NO KEY UPDATE SKIP LOCKED
+	        )
+2023-08-10 14:11:34.087 CDT [8776] ERROR:  transacción abortada, las órdenes serán ignoradas hasta el fin de bloque de transacción
+2023-08-10 14:11:34.087 CDT [8776] SENTENCIA:  SELECT "ir_ui_view".id FROM "ir_ui_view" LEFT JOIN "website" AS "ir_ui_view__website_id" ON ("ir_ui_view"."website_id" = "ir_ui_view__website_id"."id") WHERE (("ir_ui_view"."active" = true) AND (("ir_ui_view"."key" = 'http_routing.http_error') AND (("ir_ui_view"."website_id" in (1)) OR "ir_ui_view"."website_id" IS NULL))) ORDER BY  "ir_ui_view__website_id"."sequence" ,"ir_ui_view__website_id"."id"   LIMIT 1
+2023-08-10 14:11:34.138 CDT [7756] ERROR:  no se pudo serializar el acceso debido a un update concurrente
+2023-08-10 14:11:34.138 CDT [7756] SENTENCIA:  DELETE FROM ir_attachment WHERE id IN (
+	            SELECT id FROM ir_attachment WHERE id in (571) FOR NO KEY UPDATE SKIP LOCKED
+	        )
+2023-08-10 14:11:34.149 CDT [1516] ERROR:  no se pudo serializar el acceso debido a un update concurrente
+2023-08-10 14:11:34.149 CDT [1516] SENTENCIA:  DELETE FROM ir_attachment WHERE id IN (
+	            SELECT id FROM ir_attachment WHERE id in (571) FOR NO KEY UPDATE SKIP LOCKED
+	        )
+2023-08-10 14:11:34.152 CDT [7756] ERROR:  transacción abortada, las órdenes serán ignoradas hasta el fin de bloque de transacción
+2023-08-10 14:11:34.152 CDT [7756] SENTENCIA:  SELECT "ir_ui_view".id FROM "ir_ui_view" LEFT JOIN "website" AS "ir_ui_view__website_id" ON ("ir_ui_view"."website_id" = "ir_ui_view__website_id"."id") WHERE (("ir_ui_view"."active" = true) AND (("ir_ui_view"."key" = 'http_routing.http_error') AND (("ir_ui_view"."website_id" in (1)) OR "ir_ui_view"."website_id" IS NULL))) ORDER BY  "ir_ui_view__website_id"."sequence" ,"ir_ui_view__website_id"."id"   LIMIT 1
+2023-08-10 14:11:34.153 CDT [1516] ERROR:  transacción abortada, las órdenes serán ignoradas hasta el fin de bloque de transacción
+2023-08-10 14:11:34.153 CDT [1516] SENTENCIA:  SELECT "ir_ui_view".id FROM "ir_ui_view" LEFT JOIN "website" AS "ir_ui_view__website_id" ON ("ir_ui_view"."website_id" = "ir_ui_view__website_id"."id") WHERE (("ir_ui_view"."active" = true) AND (("ir_ui_view"."key" = 'http_routing.http_error') AND (("ir_ui_view"."website_id" in (1)) OR "ir_ui_view"."website_id" IS NULL))) ORDER BY  "ir_ui_view__website_id"."sequence" ,"ir_ui_view__website_id"."id"   LIMIT 1
+2023-08-10 14:11:34.557 CDT [9968] ERROR:  no se pudo serializar el acceso debido a un update concurrente
+2023-08-10 14:11:34.557 CDT [9968] SENTENCIA:  DELETE FROM ir_attachment WHERE id IN (
+	            SELECT id FROM ir_attachment WHERE id in (571) FOR NO KEY UPDATE SKIP LOCKED
+	        )
+2023-08-10 14:11:34.563 CDT [9968] ERROR:  transacción abortada, las órdenes serán ignoradas hasta el fin de bloque de transacción
+2023-08-10 14:11:34.563 CDT [9968] SENTENCIA:  SELECT "ir_ui_view".id FROM "ir_ui_view" LEFT JOIN "website" AS "ir_ui_view__website_id" ON ("ir_ui_view"."website_id" = "ir_ui_view__website_id"."id") WHERE (("ir_ui_view"."active" = true) AND (("ir_ui_view"."key" = 'http_routing.http_error') AND (("ir_ui_view"."website_id" in (1)) OR "ir_ui_view"."website_id" IS NULL))) ORDER BY  "ir_ui_view__website_id"."sequence" ,"ir_ui_view__website_id"."id"   LIMIT 1
+2023-08-10 14:11:35.087 CDT [5088] ERROR:  no se pudo serializar el acceso debido a un update concurrente
+2023-08-10 14:11:35.087 CDT [5088] SENTENCIA:  DELETE FROM ir_attachment WHERE id IN (
+	            SELECT id FROM ir_attachment WHERE id in (571) FOR NO KEY UPDATE SKIP LOCKED
+	        )
+2023-08-10 14:11:35.119 CDT [5088] ERROR:  transacción abortada, las órdenes serán ignoradas hasta el fin de bloque de transacción
+2023-08-10 14:11:35.119 CDT [5088] SENTENCIA:  SELECT "ir_ui_view".id FROM "ir_ui_view" LEFT JOIN "website" AS "ir_ui_view__website_id" ON ("ir_ui_view"."website_id" = "ir_ui_view__website_id"."id") WHERE (("ir_ui_view"."active" = true) AND (("ir_ui_view"."key" = 'http_routing.http_error') AND (("ir_ui_view"."website_id" in (1)) OR "ir_ui_view"."website_id" IS NULL))) ORDER BY  "ir_ui_view__website_id"."sequence" ,"ir_ui_view__website_id"."id"   LIMIT 1
+2023-08-10 15:15:33.384 CDT [10368] ERROR:  no se pudo serializar el acceso debido a un update concurrente
+2023-08-10 15:15:33.384 CDT [10368] SENTENCIA:  UPDATE "mail_channel_member" SET "is_minimized" = true, "write_date" = '2023-08-10 20:15:33.360792', "write_uid" = 6 WHERE id IN (9)
+2023-08-10 15:34:14.599 CDT [9760] ERROR:  update o delete en «stock_picking_type» viola la llave foránea «stock_rule_picking_type_id_fkey» en la tabla «stock_rule»
+2023-08-10 15:34:14.599 CDT [9760] DETALLE:  La llave (id)=(7) todavía es referida desde la tabla «stock_rule».
+2023-08-10 15:34:14.599 CDT [9760] SENTENCIA:  DELETE FROM "stock_warehouse" WHERE id IN (2)
+2023-08-10 15:34:31.206 CDT [5088] ERROR:  update o delete en «stock_picking_type» viola la llave foránea «stock_rule_picking_type_id_fkey» en la tabla «stock_rule»
+2023-08-10 15:34:31.206 CDT [5088] DETALLE:  La llave (id)=(7) todavía es referida desde la tabla «stock_rule».
+2023-08-10 15:34:31.206 CDT [5088] SENTENCIA:  DELETE FROM "stock_warehouse" WHERE id IN (2)
