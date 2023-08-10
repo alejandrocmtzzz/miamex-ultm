@@ -62,3 +62,5 @@
 2023-08-10 15:34:31.206 CDT [5088] ERROR:  update o delete en «stock_picking_type» viola la llave foránea «stock_rule_picking_type_id_fkey» en la tabla «stock_rule»
 2023-08-10 15:34:31.206 CDT [5088] DETALLE:  La llave (id)=(7) todavía es referida desde la tabla «stock_rule».
 2023-08-10 15:34:31.206 CDT [5088] SENTENCIA:  DELETE FROM "stock_warehouse" WHERE id IN (2)
+2023-08-10 16:46:15.556 CDT [10368] ERROR:  no se pudo serializar el acceso debido a un update concurrente
+2023-08-10 16:46:15.556 CDT [10368] SENTENCIA:  UPDATE "mail_channel_member" SET "is_minimized" = true, "write_date" = '2023-08-10 21:46:15.548238', "write_uid" = 7 WHERE id IN (15)
