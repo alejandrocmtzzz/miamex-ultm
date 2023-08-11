@@ -64,3 +64,20 @@
 2023-08-10 15:34:31.206 CDT [5088] SENTENCIA:  DELETE FROM "stock_warehouse" WHERE id IN (2)
 2023-08-10 16:46:15.556 CDT [10368] ERROR:  no se pudo serializar el acceso debido a un update concurrente
 2023-08-10 16:46:15.556 CDT [10368] SENTENCIA:  UPDATE "mail_channel_member" SET "is_minimized" = true, "write_date" = '2023-08-10 21:46:15.548238', "write_uid" = 7 WHERE id IN (15)
+2023-08-10 17:56:05.386 CDT [12388] ERROR:  no se pudo serializar el acceso debido a un update concurrente
+2023-08-10 17:56:05.386 CDT [12388] SENTENCIA:  UPDATE "mail_channel_member" SET "fold_state" = 'open', "is_minimized" = true, "write_date" = '2023-08-10 22:56:05.373258', "write_uid" = 7 WHERE id IN (15)
+2023-08-10 18:47:16.309 CDT [9760] ERROR:  llave duplicada viola restricción de unicidad «stock_warehouse_warehouse_name_uniq»
+2023-08-10 18:47:16.309 CDT [9760] DETALLE:  Ya existe la llave (name, company_id)=(Lonas, 1).
+2023-08-10 18:47:16.309 CDT [9760] SENTENCIA:  INSERT INTO "stock_warehouse" ("active", "code", "company_id", "create_date", "create_uid", "delivery_steps", "lot_stock_id", "name", "partner_id", "reception_steps", "sequence", "view_location_id", "wh_input_stock_loc_id", "wh_output_stock_loc_id", "wh_pack_stock_loc_id", "wh_qc_stock_loc_id", "write_date", "write_uid") VALUES (true, 'Lonas', 1, '2023-08-10 23:47:16.255156', 2, 'ship_only', 24, 'Lonas', NULL, 'one_step', 10, 23, 25, 27, 28, 26, '2023-08-10 23:47:16.255156', 2) RETURNING "id"
+2023-08-10 18:47:33.284 CDT [12388] ERROR:  llave duplicada viola restricción de unicidad «stock_warehouse_warehouse_name_uniq»
+2023-08-10 18:47:33.284 CDT [12388] DETALLE:  Ya existe la llave (name, company_id)=(Lonas, 1).
+2023-08-10 18:47:33.284 CDT [12388] SENTENCIA:  INSERT INTO "stock_warehouse" ("active", "code", "company_id", "create_date", "create_uid", "delivery_steps", "lot_stock_id", "name", "partner_id", "reception_steps", "sequence", "view_location_id", "wh_input_stock_loc_id", "wh_output_stock_loc_id", "wh_pack_stock_loc_id", "wh_qc_stock_loc_id", "write_date", "write_uid") VALUES (true, 'Lonas', 1, '2023-08-10 23:47:33.231033', 2, 'ship_only', 30, 'Lonas', NULL, 'one_step', 10, 29, 31, 33, 34, 32, '2023-08-10 23:47:33.231033', 2) RETURNING "id"
+2023-08-10 19:09:29.314 CDT [9992] ERROR:  update o delete en «stock_picking_type» viola la llave foránea «stock_rule_picking_type_id_fkey» en la tabla «stock_rule»
+2023-08-10 19:09:29.314 CDT [9992] DETALLE:  La llave (id)=(13) todavía es referida desde la tabla «stock_rule».
+2023-08-10 19:09:29.314 CDT [9992] SENTENCIA:  DELETE FROM "stock_picking_type" WHERE id IN (13)
+2023-08-10 19:13:21.405 CDT [11868] ERROR:  update o delete en «stock_picking_type» viola la llave foránea «stock_rule_picking_type_id_fkey» en la tabla «stock_rule»
+2023-08-10 19:13:21.405 CDT [11868] DETALLE:  La llave (id)=(17) todavía es referida desde la tabla «stock_rule».
+2023-08-10 19:13:21.405 CDT [11868] SENTENCIA:  DELETE FROM "stock_picking_type" WHERE id IN (17)
+2023-08-10 19:17:04.974 CDT [12388] ERROR:  update o delete en «stock_picking_type» viola la llave foránea «stock_rule_picking_type_id_fkey» en la tabla «stock_rule»
+2023-08-10 19:17:04.974 CDT [12388] DETALLE:  La llave (id)=(23) todavía es referida desde la tabla «stock_rule».
+2023-08-10 19:17:04.974 CDT [12388] SENTENCIA:  DELETE FROM "stock_warehouse" WHERE id IN (6)
