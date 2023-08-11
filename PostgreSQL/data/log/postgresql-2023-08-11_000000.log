@@ -1,0 +1,6 @@
+2023-08-11 10:47:58.085 CDT [5088] ERROR:  llave duplicada viola restricción de unicidad «stock_warehouse_warehouse_name_uniq»
+2023-08-11 10:47:58.085 CDT [5088] DETALLE:  Ya existe la llave (name, company_id)=(Lonas, 1).
+2023-08-11 10:47:58.085 CDT [5088] SENTENCIA:  UPDATE "stock_warehouse" SET "name" = 'Lonas', "write_date" = '2023-08-11 15:47:58.036916', "write_uid" = 7 WHERE id IN (5)
+2023-08-11 10:53:17.121 CDT [9760] ERROR:  update o delete en «stock_picking_type» viola la llave foránea «stock_rule_picking_type_id_fkey» en la tabla «stock_rule»
+2023-08-11 10:53:17.121 CDT [9760] DETALLE:  La llave (id)=(17) todavía es referida desde la tabla «stock_rule».
+2023-08-11 10:53:17.121 CDT [9760] SENTENCIA:  DELETE FROM "stock_picking_type" WHERE id IN (17)
