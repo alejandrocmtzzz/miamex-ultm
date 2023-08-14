@@ -4,3 +4,6 @@
 2023-08-11 10:53:17.121 CDT [9760] ERROR:  update o delete en «stock_picking_type» viola la llave foránea «stock_rule_picking_type_id_fkey» en la tabla «stock_rule»
 2023-08-11 10:53:17.121 CDT [9760] DETALLE:  La llave (id)=(17) todavía es referida desde la tabla «stock_rule».
 2023-08-11 10:53:17.121 CDT [9760] SENTENCIA:  DELETE FROM "stock_picking_type" WHERE id IN (17)
+2023-08-11 11:48:23.834 CDT [8776] ERROR:  update o delete en «stock_picking_type» viola la llave foránea «stock_rule_picking_type_id_fkey» en la tabla «stock_rule»
+2023-08-11 11:48:23.834 CDT [8776] DETALLE:  La llave (id)=(2) todavía es referida desde la tabla «stock_rule».
+2023-08-11 11:48:23.834 CDT [8776] SENTENCIA:  DELETE FROM "stock_picking_type" WHERE id IN (2)
