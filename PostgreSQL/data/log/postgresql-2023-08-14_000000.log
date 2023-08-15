@@ -1,0 +1,8 @@
+2023-08-14 11:56:57.422 CDT [12388] ERROR:  no se pudo serializar el acceso debido a un update concurrente
+2023-08-14 11:56:57.422 CDT [12388] SENTENCIA:  DELETE FROM ir_attachment WHERE id IN (
+	            SELECT id FROM ir_attachment WHERE id in (804) FOR NO KEY UPDATE SKIP LOCKED
+	        )
+2023-08-14 11:56:57.436 CDT [9968] ERROR:  no se pudo serializar el acceso debido a un update concurrente
+2023-08-14 11:56:57.436 CDT [9968] SENTENCIA:  DELETE FROM ir_attachment WHERE id IN (
+	            SELECT id FROM ir_attachment WHERE id in (804) FOR NO KEY UPDATE SKIP LOCKED
+	        )
