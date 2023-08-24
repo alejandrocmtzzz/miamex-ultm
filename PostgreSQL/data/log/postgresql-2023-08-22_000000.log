@@ -1,0 +1,3 @@
+2023-08-22 16:16:20.625 CDT [5116] ERROR:  update o delete en «stock_picking_type» viola la llave foránea «stock_rule_picking_type_id_fkey» en la tabla «stock_rule»
+2023-08-22 16:16:20.625 CDT [5116] DETALLE:  La llave (id)=(14) todavía es referida desde la tabla «stock_rule».
+2023-08-22 16:16:20.625 CDT [5116] SENTENCIA:  DELETE FROM "stock_picking_type" WHERE id IN (14)

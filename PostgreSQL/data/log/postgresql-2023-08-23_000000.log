@@ -1,0 +1,6 @@
+2023-08-23 04:00:59.630 CDT [1288] LOG:  no se pudo cambiar el nombre al archivo temporal de estadísticas de «pg_stat_tmp/global.tmp» a «pg_stat_tmp/global.stat»: Permission denied
+2023-08-23 04:01:04.314 CDT [6972] LOG:  usando estadÃ­sticas aÃ±ejas en vez de actualizadas porque el recolector de estadÃ­sticas no estÃ¡ respondiendo
+2023-08-23 13:54:07.989 CDT [10476] ERROR:  no se pudo serializar el acceso debido a un update concurrente
+2023-08-23 13:54:07.989 CDT [10476] SENTENCIA:  UPDATE "bus_presence" SET "last_poll" = '2023-08-23 18:54:07' WHERE id IN (2)
+2023-08-23 17:49:07.990 CDT [5488] ERROR:  no se pudo serializar el acceso debido a un update concurrente
+2023-08-23 17:49:07.990 CDT [5488] SENTENCIA:  UPDATE "bus_presence" SET "last_poll" = '2023-08-23 22:49:07' WHERE id IN (2)
