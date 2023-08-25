@@ -17764,3 +17764,687 @@ Limitación: stock_rule_picking_type_id_fkey
 2023-08-25 17:16:34,958 3552 INFO maimex2 werkzeug: 192.168.4.201 - - [25/Aug/2023 17:16:34] "GET /web/image/res.company/1/favicon HTTP/1.1" 304 - 5 0.006 0.013
 2023-08-25 17:16:34,959 3552 INFO maimex2 werkzeug: 192.168.4.201 - - [25/Aug/2023 17:16:34] "POST /web/action/load HTTP/1.1" 200 - 9 0.011 0.011
 2023-08-25 17:16:35,045 3552 INFO maimex2 werkzeug: 192.168.4.201 - - [25/Aug/2023 17:16:35] "GET /web/image/res.company/1/favicon HTTP/1.1" 304 - 5 0.003 0.007
+2023-08-25 17:43:07,120 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 17:43:07] "POST /web/dataset/call_kw/stock.picking/web_search_read HTTP/1.1" 200 - 15 0.000 0.041
+2023-08-25 17:43:08,908 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 17:43:08] "POST /web/dataset/call_kw/stock.picking/onchange HTTP/1.1" 200 - 14 0.016 0.026
+2023-08-25 17:43:13,752 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 17:43:13] "GET /web HTTP/1.1" 200 - 31 0.031 0.312
+2023-08-25 17:43:13,895 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 17:43:13] "GET /web/assets/debug/web.assets_common.css HTTP/1.1" 304 - 5 0.000 0.064
+2023-08-25 17:43:13,895 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 17:43:13] "GET /web/assets/debug/web.assets_backend.css HTTP/1.1" 200 - 5 0.016 0.049
+2023-08-25 17:43:13,895 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 17:43:13] "GET /web/assets/debug/web.assets_backend_prod_only.js HTTP/1.1" 304 - 5 0.016 0.032
+2023-08-25 17:43:14,244 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 17:43:14] "GET /web/assets/debug/web.assets_common.js HTTP/1.1" 200 - 5 0.000 0.414
+2023-08-25 17:43:15,851 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 17:43:15] "GET /web/assets/debug/web.assets_backend.js HTTP/1.1" 200 - 5 0.000 2.020
+2023-08-25 17:43:18,964 3552 INFO ? werkzeug: 192.168.4.28 - - [25/Aug/2023 17:43:18] "GET /web/static/img/favicon.ico HTTP/1.1" 304 - 0 0.000 0.016
+2023-08-25 17:43:18,980 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 17:43:18] "POST /web/action/load HTTP/1.1" 200 - 10 0.016 0.000
+2023-08-25 17:43:19,047 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 17:43:19] "GET /bus/websocket_worker_bundle?v=1.0.5 HTTP/1.1" 304 - 4 0.000 0.041
+2023-08-25 17:43:19,356 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 17:43:19] "POST /web/dataset/call_kw/web.environment.ribbon.backend/get_environment_ribbon HTTP/1.1" 200 - 1 0.000 0.016
+2023-08-25 17:43:19,409 3552 INFO ? werkzeug: 192.168.4.28 - - [25/Aug/2023 17:43:19] "GET /code_backend_theme/static/src/img/icons/close.png HTTP/1.1" 304 - 0 0.000 0.031
+2023-08-25 17:43:19,409 3552 INFO ? werkzeug: 192.168.4.28 - - [25/Aug/2023 17:43:19] "GET /code_backend_theme/static/src/img/code_logo.png HTTP/1.1" 304 - 0 0.000 0.031
+2023-08-25 17:43:19,424 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 17:43:19] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 304 - 9 0.006 0.041
+2023-08-25 17:43:19,440 3552 INFO ? werkzeug: 192.168.4.28 - - [25/Aug/2023 17:43:19] "GET /web/static/src/libs/fontawesome/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 304 - 0 0.000 0.031
+2023-08-25 17:43:19,440 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 17:43:19] "POST /web/dataset/call_kw/stock.picking/get_views HTTP/1.1" 200 - 3 0.000 0.063
+2023-08-25 17:43:19,450 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 17:43:19] "GET /websocket HTTP/1.1" 101 - 1 0.000 0.000
+2023-08-25 17:43:19,690 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 17:43:19] "POST /web/dataset/call_kw/stock.picking/read HTTP/1.1" 200 - 23 0.016 0.021
+2023-08-25 17:43:19,851 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 17:43:19] "POST /web/dataset/call_kw/res.users/systray_get_activities HTTP/1.1" 200 - 7 0.000 0.026
+2023-08-25 17:43:19,898 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 17:43:19] "POST /mail/init_messaging HTTP/1.1" 200 - 30 0.057 0.016
+2023-08-25 17:43:20,146 3552 INFO ? werkzeug: 192.168.4.28 - - [25/Aug/2023 17:43:20] "GET /mail/static/src/audio/ting.ogg HTTP/1.1" 206 - 0 0.000 0.026
+2023-08-25 17:43:20,162 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 17:43:20] "POST /web/dataset/call_kw/stock.move.line/read HTTP/1.1" 200 - 13 0.031 0.026
+2023-08-25 17:43:20,162 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 17:43:20] "GET /web/image/res.company/1/favicon HTTP/1.1" 200 - 5 0.000 0.026
+2023-08-25 17:43:20,177 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 17:43:20] "POST /web/dataset/call_kw/stock.move/read HTTP/1.1" 200 - 23 0.041 0.031
+2023-08-25 17:43:20,825 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 17:43:20] "POST /mail/load_message_failures HTTP/1.1" 200 - 3 0.000 0.016
+2023-08-25 17:43:20,867 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 17:43:20] "POST /mail/thread/data HTTP/1.1" 200 - 12 0.010 0.031
+2023-08-25 17:43:20,867 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 17:43:20] "POST /mail/thread/messages HTTP/1.1" 200 - 22 0.031 0.010
+2023-08-25 17:43:20,908 3552 INFO ? werkzeug: 192.168.4.28 - - [25/Aug/2023 17:43:20] "GET /web/static/lib/odoo_ui_icons/fonts/odoo_ui_icons.woff2 HTTP/1.1" 304 - 0 0.000 0.000
+2023-08-25 17:43:20,908 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 17:43:20] "GET /web/image/res.company/1/favicon HTTP/1.1" 304 - 5 0.000 0.000
+2023-08-25 17:43:21,177 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 17:43:21] "GET /web/image/res.partner/3/avatar_128 HTTP/1.1" 304 - 7 0.016 0.000
+2023-08-25 17:43:39,305 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 17:43:39] "POST /web/dataset/call_kw/res.users/has_group HTTP/1.1" 200 - 1 0.000 0.010
+2023-08-25 17:43:39,315 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 17:43:39] "POST /web/dataset/call_kw/stock.picking/web_search_read HTTP/1.1" 200 - 15 0.000 0.036
+2023-08-25 17:43:40,752 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 17:43:40] "POST /web/dataset/call_kw/stock.picking/onchange HTTP/1.1" 200 - 3 0.000 0.016
+2023-08-25 17:43:42,487 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 17:43:42] "POST /web/dataset/call_kw/res.partner/name_search HTTP/1.1" 200 - 3 0.001 0.016
+2023-08-25 17:43:47,104 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 17:43:47] "POST /web/dataset/call_kw/stock.picking.type/name_search HTTP/1.1" 200 - 4 0.010 0.000
+2023-08-25 17:43:58,047 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 17:43:58] "POST /web/dataset/call_kw/ir.ui.view/check_access_rights HTTP/1.1" 200 - 1 0.000 0.010
+2023-08-25 17:43:58,047 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 17:43:58] "POST /web/dataset/call_kw/ir.rule/check_access_rights HTTP/1.1" 200 - 1 0.000 0.000
+2023-08-25 17:43:58,063 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 17:43:58] "POST /web/dataset/call_kw/ir.model.access/check_access_rights HTTP/1.1" 200 - 1 0.000 0.016
+2023-08-25 17:45:04,628 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 17:45:04] "POST /web/dataset/call_kw/res.partner/name_search HTTP/1.1" 200 - 3 0.000 0.000
+2023-08-25 17:45:07,234 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 17:45:07] "POST /web/dataset/call_kw/stock.location/name_search HTTP/1.1" 200 - 3 0.000 0.016
+2023-08-25 17:45:16,596 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 17:45:16] "POST /web/dataset/call_kw/ir.ui.view/get_views HTTP/1.1" 200 - 8 0.016 0.021
+2023-08-25 17:45:16,690 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 17:45:16] "POST /web/dataset/call_kw/ir.ui.view/read HTTP/1.1" 200 - 20 0.016 0.016
+2023-08-25 17:45:16,716 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 17:45:16] "POST /web/dataset/call_kw/ir.ui.view/read HTTP/1.1" 200 - 4 0.000 0.016
+2023-08-25 17:45:16,908 3552 INFO ? werkzeug: 192.168.4.28 - - [25/Aug/2023 17:45:16] "GET /web/static/lib/ace/ace.js HTTP/1.1" 200 - 0 0.000 0.124
+2023-08-25 17:45:17,047 3552 INFO ? werkzeug: 192.168.4.28 - - [25/Aug/2023 17:45:17] "GET /web/static/lib/ace/mode-xml.js HTTP/1.1" 200 - 0 0.000 0.026
+2023-08-25 17:45:17,063 3552 INFO ? werkzeug: 192.168.4.28 - - [25/Aug/2023 17:45:17] "GET /web/static/lib/ace/mode-qweb.js HTTP/1.1" 304 - 0 0.000 0.016
+2023-08-25 17:45:17,063 3552 INFO ? werkzeug: 192.168.4.28 - - [25/Aug/2023 17:45:17] "GET /web/static/lib/ace/mode-python.js HTTP/1.1" 304 - 0 0.000 0.026
+2023-08-25 17:45:51,394 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 17:45:51] "GET /web/static/lib/ace/ext-searchbox.js HTTP/1.1" 404 - 43 0.010 0.264
+2023-08-25 17:46:54,408 3552 INFO maimex2 odoo.modules.registry: At least one model cache has been invalidated, signaling through the database. 
+2023-08-25 17:46:54,408 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 17:46:54] "POST /web/dataset/call_kw/ir.ui.view/write HTTP/1.1" 200 - 52 0.042 0.062
+2023-08-25 17:46:54,456 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 17:46:54] "POST /web/dataset/call_kw/ir.ui.view/read HTTP/1.1" 200 - 28 0.016 0.016
+2023-08-25 17:46:54,471 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 17:46:54] "POST /web/dataset/call_kw/ir.ui.view/read HTTP/1.1" 200 - 4 0.000 0.000
+2023-08-25 17:47:01,690 3552 INFO maimex2 werkzeug: 192.168.4.201 - - [25/Aug/2023 17:47:01] "GET /web HTTP/1.1" 200 - 123 0.061 1.913
+2023-08-25 17:47:01,747 3552 INFO maimex2 werkzeug: 192.168.4.201 - - [25/Aug/2023 17:47:01] "GET /web/assets/954-f78ecf4/web.assets_common.min.css HTTP/1.1" 200 - 4 0.004 0.029
+2023-08-25 17:47:01,747 3552 INFO maimex2 werkzeug: 192.168.4.201 - - [25/Aug/2023 17:47:01] "GET /web/assets/926-b6c148d/web.assets_backend.min.css HTTP/1.1" 200 - 4 0.002 0.029
+2023-08-25 17:47:01,754 3552 INFO maimex2 werkzeug: 192.168.4.201 - - [25/Aug/2023 17:47:01] "GET /web/webclient/load_menus/50956d488a0082030e36818e7421f44a026ab58969c628ad4d0f608c638fc13b HTTP/1.1" 200 - 1 0.001 0.009
+2023-08-25 17:47:03,883 3552 INFO maimex2 werkzeug: 192.168.4.201 - - [25/Aug/2023 17:47:03] "POST /web/action/load HTTP/1.1" 200 - 14 0.009 0.020
+2023-08-25 17:47:03,912 3552 INFO maimex2 werkzeug: 192.168.4.201 - - [25/Aug/2023 17:47:03] "GET /bus/websocket_worker_bundle?v=1.0.5 HTTP/1.1" 304 - 5 0.003 0.047
+2023-08-25 17:47:03,974 3552 INFO ? werkzeug: 192.168.4.201 - - [25/Aug/2023 17:47:03] "GET /mail/static/src/audio/ting.ogg HTTP/1.1" 206 - 0 0.000 0.007
+2023-08-25 17:47:04,041 3552 INFO maimex2 werkzeug: 192.168.4.201 - - [25/Aug/2023 17:47:04] "POST /mail/init_messaging HTTP/1.1" 200 - 61 0.049 0.041
+2023-08-25 17:47:04,123 3552 INFO maimex2 werkzeug: 192.168.4.201 - - [25/Aug/2023 17:47:04] "POST /web/dataset/call_kw/res.users/systray_get_activities HTTP/1.1" 200 - 16 0.008 0.014
+2023-08-25 17:47:04,151 3552 INFO maimex2 werkzeug: 192.168.4.201 - - [25/Aug/2023 17:47:04] "GET /web/image?model=res.users&field=avatar_128&id=6 HTTP/1.1" 304 - 8 0.007 0.007
+2023-08-25 17:47:04,160 3552 INFO maimex2 werkzeug: 192.168.4.201 - - [25/Aug/2023 17:47:04] "POST /web/dataset/call_kw/web.environment.ribbon.backend/get_environment_ribbon HTTP/1.1" 200 - 4 0.002 0.004
+2023-08-25 17:47:04,193 3552 INFO maimex2 werkzeug: 192.168.4.201 - - [25/Aug/2023 17:47:04] "GET /websocket HTTP/1.1" 101 - 1 0.000 0.011
+2023-08-25 17:47:04,247 3552 INFO maimex2 werkzeug: 192.168.4.201 - - [25/Aug/2023 17:47:04] "POST /mail/load_message_failures HTTP/1.1" 200 - 3 0.002 0.008
+2023-08-25 17:47:04,317 3552 INFO maimex2 werkzeug: 192.168.4.201 - - [25/Aug/2023 17:47:04] "GET /web/image/res.company/1/favicon HTTP/1.1" 304 - 5 0.005 0.013
+2023-08-25 17:47:04,358 3552 INFO maimex2 werkzeug: 192.168.4.201 - - [25/Aug/2023 17:47:04] "POST /web/dataset/call_kw/stock.picking/get_views HTTP/1.1" 200 - 93 0.071 0.125
+2023-08-25 17:47:04,415 3552 INFO maimex2 werkzeug: 192.168.4.201 - - [25/Aug/2023 17:47:04] "GET /web/image/res.company/1/favicon HTTP/1.1" 304 - 5 0.001 0.010
+2023-08-25 17:47:04,428 3552 INFO maimex2 werkzeug: 192.168.4.201 - - [25/Aug/2023 17:47:04] "GET /web/image/res.company/1/favicon HTTP/1.1" 304 - 5 0.003 0.007
+2023-08-25 17:47:04,581 3552 INFO maimex2 werkzeug: 192.168.4.201 - - [25/Aug/2023 17:47:04] "POST /web/dataset/call_kw/stock.move/get_views HTTP/1.1" 200 - 4 0.003 0.014
+2023-08-25 17:47:04,704 3552 INFO maimex2 werkzeug: 192.168.4.201 - - [25/Aug/2023 17:47:04] "POST /web/dataset/call_kw/stock.picking/onchange HTTP/1.1" 200 - 6 0.003 0.024
+2023-08-25 17:47:04,712 3552 INFO maimex2 werkzeug: 192.168.4.201 - - [25/Aug/2023 17:47:04] "GET /web/image/res.company/1/favicon HTTP/1.1" 304 - 5 0.005 0.016
+2023-08-25 17:47:04,998 3552 INFO maimex2 werkzeug: 192.168.4.201 - - [25/Aug/2023 17:47:04] "GET /web/image/res.partner/8/avatar_128 HTTP/1.1" 304 - 6 0.004 0.010
+2023-08-25 17:47:11,741 3552 INFO maimex2 werkzeug: 192.168.4.201 - - [25/Aug/2023 17:47:11] "POST /web/dataset/call_kw/stock.picking.type/get_views HTTP/1.1" 200 - 16 0.007 0.019
+2023-08-25 17:47:11,778 3552 INFO maimex2 werkzeug: 192.168.4.201 - - [25/Aug/2023 17:47:11] "POST /web/dataset/call_kw/stock.picking.type/web_search_read HTTP/1.1" 200 - 17 0.008 0.012
+2023-08-25 17:47:16,871 3552 INFO maimex2 werkzeug: 192.168.4.201 - - [25/Aug/2023 17:47:16] "POST /web/dataset/call_kw/res.partner/get_views HTTP/1.1" 200 - 39 0.019 0.046
+2023-08-25 17:47:16,898 3552 INFO maimex2 werkzeug: 192.168.4.201 - - [25/Aug/2023 17:47:16] "POST /web/dataset/call_kw/res.users/has_group HTTP/1.1" 200 - 2 0.002 0.005
+2023-08-25 17:47:16,919 3552 INFO maimex2 werkzeug: 192.168.4.201 - - [25/Aug/2023 17:47:16] "POST /web/dataset/call_kw/res.partner/web_search_read HTTP/1.1" 200 - 15 0.013 0.018
+2023-08-25 17:47:16,936 3552 INFO maimex2 werkzeug: 192.168.4.201 - - [25/Aug/2023 17:47:16] "POST /web/dataset/call_kw/res.partner.category/read HTTP/1.1" 200 - 3 0.003 0.005
+2023-08-25 17:47:17,062 3552 INFO maimex2 werkzeug: 192.168.4.201 - - [25/Aug/2023 17:47:17] "GET /web/image/res.users/8/avatar_128 HTTP/1.1" 200 - 8 0.006 0.018
+2023-08-25 17:47:17,136 3552 INFO maimex2 werkzeug: 192.168.4.201 - - [25/Aug/2023 17:47:17] "POST /web/dataset/call_kw/res.partner/web_search_read HTTP/1.1" 200 - 10 0.009 0.013
+2023-08-25 17:47:17,146 3552 INFO maimex2 werkzeug: 192.168.4.201 - - [25/Aug/2023 17:47:17] "POST /web/dataset/call_kw/res.partner.category/read HTTP/1.1" 200 - 3 0.002 0.003
+2023-08-25 17:47:22,590 3552 INFO maimex2 werkzeug: 192.168.4.201 - - [25/Aug/2023 17:47:22] "POST /web/dataset/call_kw/stock.location/get_views HTTP/1.1" 200 - 15 0.004 0.018
+2023-08-25 17:47:22,608 3552 INFO maimex2 werkzeug: 192.168.4.201 - - [25/Aug/2023 17:47:22] "POST /web/dataset/call_kw/stock.location/web_search_read HTTP/1.1" 200 - 7 0.003 0.006
+2023-08-25 17:47:26,686 3552 INFO maimex2 werkzeug: 192.168.4.201 - - [25/Aug/2023 17:47:26] "GET /web HTTP/1.1" 200 - 13 0.007 0.021
+2023-08-25 17:47:27,984 3552 INFO maimex2 werkzeug: 192.168.4.201 - - [25/Aug/2023 17:47:27] "GET /bus/websocket_worker_bundle?v=1.0.5 HTTP/1.1" 304 - 4 0.003 0.008
+2023-08-25 17:47:27,987 3552 INFO maimex2 werkzeug: 192.168.4.201 - - [25/Aug/2023 17:47:27] "POST /web/action/load HTTP/1.1" 200 - 10 0.005 0.014
+2023-08-25 17:47:28,103 3552 INFO maimex2 werkzeug: 192.168.4.201 - - [25/Aug/2023 17:47:28] "POST /mail/init_messaging HTTP/1.1" 200 - 35 0.025 0.029
+2023-08-25 17:47:28,180 3552 INFO maimex2 werkzeug: 192.168.4.201 - - [25/Aug/2023 17:47:28] "POST /web/dataset/call_kw/res.users/systray_get_activities HTTP/1.1" 200 - 7 0.004 0.009
+2023-08-25 17:47:28,217 3552 INFO maimex2 werkzeug: 192.168.4.201 - - [25/Aug/2023 17:47:28] "GET /web/image?model=res.users&field=avatar_128&id=6 HTTP/1.1" 304 - 8 0.005 0.014
+2023-08-25 17:47:28,226 3552 INFO maimex2 werkzeug: 192.168.4.201 - - [25/Aug/2023 17:47:28] "POST /web/dataset/call_kw/web.environment.ribbon.backend/get_environment_ribbon HTTP/1.1" 200 - 1 0.001 0.015
+2023-08-25 17:47:28,245 3552 INFO maimex2 werkzeug: 192.168.4.201 - - [25/Aug/2023 17:47:28] "GET /websocket HTTP/1.1" 101 - 1 0.001 0.010
+2023-08-25 17:47:28,278 3552 INFO maimex2 werkzeug: 192.168.4.201 - - [25/Aug/2023 17:47:28] "POST /mail/load_message_failures HTTP/1.1" 200 - 3 0.006 0.006
+2023-08-25 17:47:28,324 3552 INFO maimex2 werkzeug: 192.168.4.201 - - [25/Aug/2023 17:47:28] "GET /web/image/res.company/1/favicon HTTP/1.1" 304 - 5 0.003 0.046
+2023-08-25 17:47:28,358 3552 INFO maimex2 werkzeug: 192.168.4.201 - - [25/Aug/2023 17:47:28] "POST /web/dataset/call_kw/stock.picking/get_views HTTP/1.1" 200 - 29 0.027 0.117
+2023-08-25 17:47:28,372 3552 INFO maimex2 werkzeug: 192.168.4.201 - - [25/Aug/2023 17:47:28] "GET /web/image/res.company/1/favicon HTTP/1.1" 304 - 5 0.005 0.017
+2023-08-25 17:47:28,391 3552 INFO maimex2 werkzeug: 192.168.4.201 - - [25/Aug/2023 17:47:28] "GET /web/image/res.company/1/favicon HTTP/1.1" 304 - 5 0.002 0.008
+2023-08-25 17:47:28,468 3552 INFO maimex2 werkzeug: 192.168.4.201 - - [25/Aug/2023 17:47:28] "POST /web/dataset/call_kw/stock.picking/onchange HTTP/1.1" 200 - 3 0.002 0.013
+2023-08-25 17:47:28,691 3552 INFO maimex2 werkzeug: 192.168.4.201 - - [25/Aug/2023 17:47:28] "GET /web/image/res.partner/8/avatar_128 HTTP/1.1" 304 - 6 0.003 0.009
+2023-08-25 17:47:28,813 3552 INFO maimex2 werkzeug: 192.168.4.201 - - [25/Aug/2023 17:47:28] "GET /web/image/res.company/1/favicon HTTP/1.1" 304 - 5 0.006 0.069
+2023-08-25 17:47:29,019 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 17:47:29] "GET /web HTTP/1.1" 200 - 63 0.047 0.519
+2023-08-25 17:47:29,094 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 17:47:29] "GET /web/assets/debug/web.assets_common.css HTTP/1.1" 304 - 5 0.005 0.014
+2023-08-25 17:47:29,097 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 17:47:29] "GET /web/assets/debug/web.assets_backend.css HTTP/1.1" 304 - 5 0.005 0.016
+2023-08-25 17:47:29,097 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 17:47:29] "GET /web/assets/debug/web.assets_common.js HTTP/1.1" 304 - 5 0.005 0.015
+2023-08-25 17:47:29,101 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 17:47:29] "GET /web/assets/debug/web.assets_backend.js HTTP/1.1" 304 - 5 0.007 0.015
+2023-08-25 17:47:29,101 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 17:47:29] "GET /web/assets/debug/web.assets_backend_prod_only.js HTTP/1.1" 304 - 5 0.005 0.016
+2023-08-25 17:47:32,372 3552 INFO ? werkzeug: 192.168.4.28 - - [25/Aug/2023 17:47:32] "GET /web/static/img/favicon.ico HTTP/1.1" 304 - 0 0.000 0.004
+2023-08-25 17:47:32,513 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 17:47:32] "GET /bus/websocket_worker_bundle?v=1.0.5 HTTP/1.1" 304 - 4 0.003 0.014
+2023-08-25 17:47:32,521 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 17:47:32] "POST /web/action/load HTTP/1.1" 200 - 11 0.013 0.016
+2023-08-25 17:47:32,550 3552 INFO ? werkzeug: 192.168.4.28 - - [25/Aug/2023 17:47:32] "GET /code_backend_theme/static/src/img/icons/close.png HTTP/1.1" 304 - 0 0.000 0.007
+2023-08-25 17:47:32,551 3552 INFO ? werkzeug: 192.168.4.28 - - [25/Aug/2023 17:47:32] "GET /code_backend_theme/static/src/img/code_logo.png HTTP/1.1" 304 - 0 0.000 0.005
+2023-08-25 17:47:32,672 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 17:47:32] "POST /web/dataset/call_kw/web.environment.ribbon.backend/get_environment_ribbon HTTP/1.1" 200 - 1 0.001 0.011
+2023-08-25 17:47:32,683 3552 INFO ? werkzeug: 192.168.4.28 - - [25/Aug/2023 17:47:32] "GET /web/static/src/libs/fontawesome/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 304 - 0 0.000 0.017
+2023-08-25 17:47:32,688 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 17:47:32] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 304 - 13 0.019 0.023
+2023-08-25 17:47:32,737 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 17:47:32] "POST /web/dataset/call_kw/stock.picking/get_views HTTP/1.1" 200 - 19 0.022 0.035
+2023-08-25 17:47:32,813 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 17:47:32] "GET /websocket HTTP/1.1" 101 - 1 0.001 0.009
+2023-08-25 17:47:33,120 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 17:47:33] "POST /web/dataset/call_kw/stock.picking/read HTTP/1.1" 200 - 48 0.033 0.030
+2023-08-25 17:47:33,240 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 17:47:33] "POST /web/dataset/call_kw/res.users/systray_get_activities HTTP/1.1" 200 - 16 0.017 0.014
+2023-08-25 17:47:33,266 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 17:47:33] "POST /mail/init_messaging HTTP/1.1" 200 - 43 0.033 0.028
+2023-08-25 17:47:33,271 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 17:47:33] "GET /web/image/res.company/1/favicon HTTP/1.1" 304 - 5 0.002 0.008
+2023-08-25 17:47:33,305 3552 INFO ? werkzeug: 192.168.4.28 - - [25/Aug/2023 17:47:33] "GET /mail/static/src/audio/ting.ogg HTTP/1.1" 206 - 0 0.000 0.005
+2023-08-25 17:47:33,340 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 17:47:33] "POST /web/dataset/call_kw/stock.move.line/read HTTP/1.1" 200 - 13 0.038 0.014
+2023-08-25 17:47:33,348 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 17:47:33] "POST /web/dataset/call_kw/stock.move/read HTTP/1.1" 200 - 23 0.039 0.019
+2023-08-25 17:47:33,822 3552 INFO ? werkzeug: 192.168.4.28 - - [25/Aug/2023 17:47:33] "GET /web/static/lib/odoo_ui_icons/fonts/odoo_ui_icons.woff2 HTTP/1.1" 304 - 0 0.000 0.004
+2023-08-25 17:47:33,893 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 17:47:33] "GET /web/image/res.company/1/favicon HTTP/1.1" 304 - 5 0.004 0.011
+2023-08-25 17:47:33,948 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 17:47:33] "POST /mail/load_message_failures HTTP/1.1" 200 - 3 0.008 0.007
+2023-08-25 17:47:33,989 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 17:47:33] "POST /mail/thread/data HTTP/1.1" 200 - 19 0.021 0.017
+2023-08-25 17:47:33,993 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 17:47:33] "POST /mail/thread/messages HTTP/1.1" 200 - 24 0.022 0.025
+2023-08-25 17:47:34,239 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 17:47:34] "GET /web/image/res.partner/3/avatar_128 HTTP/1.1" 304 - 7 0.007 0.016
+2023-08-25 17:47:36,472 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 17:47:36] "POST /web/dataset/call_kw/res.users/has_group HTTP/1.1" 200 - 2 0.002 0.011
+2023-08-25 17:47:36,497 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 17:47:36] "POST /web/dataset/call_kw/stock.picking/web_search_read HTTP/1.1" 200 - 15 0.012 0.027
+2023-08-25 17:47:38,017 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 17:47:38] "POST /web/dataset/call_kw/stock.picking/onchange HTTP/1.1" 200 - 4 0.002 0.019
+2023-08-25 17:47:41,948 3552 INFO maimex2 werkzeug: 192.168.4.201 - - [25/Aug/2023 17:47:41] "GET /web HTTP/1.1" 200 - 13 0.005 0.023
+2023-08-25 17:47:42,800 3552 INFO maimex2 werkzeug: 192.168.4.201 - - [25/Aug/2023 17:47:42] "GET /bus/websocket_worker_bundle?v=1.0.5 HTTP/1.1" 304 - 4 0.002 0.013
+2023-08-25 17:47:42,802 3552 INFO maimex2 werkzeug: 192.168.4.201 - - [25/Aug/2023 17:47:42] "POST /web/action/load HTTP/1.1" 200 - 10 0.009 0.012
+2023-08-25 17:47:43,050 3552 INFO maimex2 werkzeug: 192.168.4.201 - - [25/Aug/2023 17:47:43] "POST /web/dataset/call_kw/res.users/systray_get_activities HTTP/1.1" 200 - 7 0.007 0.014
+2023-08-25 17:47:43,068 3552 INFO maimex2 werkzeug: 192.168.4.201 - - [25/Aug/2023 17:47:43] "POST /mail/init_messaging HTTP/1.1" 200 - 35 0.029 0.189
+2023-08-25 17:47:43,072 3552 INFO maimex2 werkzeug: 192.168.4.201 - - [25/Aug/2023 17:47:43] "POST /web/dataset/call_kw/web.environment.ribbon.backend/get_environment_ribbon HTTP/1.1" 200 - 1 0.000 0.038
+2023-08-25 17:47:43,090 3552 INFO maimex2 werkzeug: 192.168.4.201 - - [25/Aug/2023 17:47:43] "GET /web/image?model=res.users&field=avatar_128&id=6 HTTP/1.1" 304 - 8 0.006 0.054
+2023-08-25 17:47:43,111 3552 INFO maimex2 werkzeug: 192.168.4.201 - - [25/Aug/2023 17:47:43] "POST /web/dataset/call_kw/stock.picking/get_views HTTP/1.1" 200 - 3 0.002 0.026
+2023-08-25 17:47:43,123 3552 INFO maimex2 werkzeug: 192.168.4.201 - - [25/Aug/2023 17:47:43] "GET /websocket HTTP/1.1" 101 - 1 0.001 0.006
+2023-08-25 17:47:43,136 3552 INFO maimex2 werkzeug: 192.168.4.201 - - [25/Aug/2023 17:47:43] "GET /web/image/res.company/1/favicon HTTP/1.1" 304 - 5 0.005 0.010
+2023-08-25 17:47:43,145 3552 INFO maimex2 werkzeug: 192.168.4.201 - - [25/Aug/2023 17:47:43] "POST /mail/load_message_failures HTTP/1.1" 200 - 3 0.005 0.007
+2023-08-25 17:47:43,150 3552 INFO maimex2 werkzeug: 192.168.4.201 - - [25/Aug/2023 17:47:43] "GET /web/image/res.company/1/favicon HTTP/1.1" 304 - 5 0.003 0.007
+2023-08-25 17:47:43,161 3552 INFO maimex2 werkzeug: 192.168.4.201 - - [25/Aug/2023 17:47:43] "GET /web/image/res.company/1/favicon HTTP/1.1" 304 - 5 0.002 0.007
+2023-08-25 17:47:43,243 3552 INFO maimex2 werkzeug: 192.168.4.201 - - [25/Aug/2023 17:47:43] "POST /web/dataset/call_kw/stock.picking/onchange HTTP/1.1" 200 - 3 0.002 0.010
+2023-08-25 17:47:43,463 3552 INFO maimex2 werkzeug: 192.168.4.201 - - [25/Aug/2023 17:47:43] "GET /web/image/res.partner/8/avatar_128 HTTP/1.1" 304 - 6 0.004 0.008
+2023-08-25 17:47:43,506 3552 INFO maimex2 werkzeug: 192.168.4.201 - - [25/Aug/2023 17:47:43] "GET /web/image/res.company/1/favicon HTTP/1.1" 304 - 5 0.003 0.010
+2023-08-25 17:47:49,265 3552 INFO maimex2 werkzeug: 192.168.4.201 - - [25/Aug/2023 17:47:49] "POST /web/dataset/call_kw/stock.picking.type/name_search HTTP/1.1" 200 - 4 0.001 0.006
+2023-08-25 17:47:50,389 3552 INFO maimex2 werkzeug: 192.168.4.201 - - [25/Aug/2023 17:47:50] "POST /web/dataset/call_kw/res.partner/name_search HTTP/1.1" 200 - 3 0.003 0.005
+2023-08-25 17:47:51,192 3552 INFO maimex2 werkzeug: 192.168.4.201 - - [25/Aug/2023 17:47:51] "POST /web/dataset/call_kw/stock.location/name_search HTTP/1.1" 200 - 3 0.002 0.005
+2023-08-25 17:47:52,119 3552 INFO maimex2 werkzeug: 192.168.4.201 - - [25/Aug/2023 17:47:52] "POST /web/dataset/call_kw/stock.location/name_search HTTP/1.1" 200 - 3 0.002 0.004
+2023-08-25 17:48:01,377 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 17:48:01] "POST /mail/inbox/messages HTTP/1.1" 200 - 5 0.006 0.016
+2023-08-25 17:48:01,409 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 17:48:01] "POST /web/dataset/call_kw/mail.channel/channel_fetch_preview HTTP/1.1" 200 - 29 0.026 0.027
+2023-08-25 17:48:01,453 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 17:48:01] "GET /web/image/res.partner/9/avatar_128 HTTP/1.1" 304 - 6 0.016 0.013
+2023-08-25 17:48:01,453 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 17:48:01] "GET /web/image/res.partner/8/avatar_128 HTTP/1.1" 304 - 6 0.026 0.003
+2023-08-25 17:48:01,453 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 17:48:01] "GET /web/image/res.partner/2/avatar_128 HTTP/1.1" 304 - 7 0.016 0.013
+2023-08-25 17:48:01,801 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 17:48:01] "POST /web/dataset/call_kw/ir.rule/check_access_rights HTTP/1.1" 200 - 1 0.000 0.016
+2023-08-25 17:48:01,801 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 17:48:01] "POST /web/dataset/call_kw/ir.ui.view/check_access_rights HTTP/1.1" 200 - 1 0.000 0.016
+2023-08-25 17:48:01,801 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 17:48:01] "POST /web/dataset/call_kw/ir.model.access/check_access_rights HTTP/1.1" 200 - 1 0.016 0.000
+2023-08-25 17:48:06,455 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 17:48:06] "POST /web/dataset/call_kw/ir.ui.view/get_views HTTP/1.1" 200 - 19 0.000 0.047
+2023-08-25 17:48:06,552 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 17:48:06] "POST /web/dataset/call_kw/ir.ui.view/read HTTP/1.1" 200 - 13 0.013 0.017
+2023-08-25 17:48:06,566 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 17:48:06] "POST /web/dataset/call_kw/ir.ui.view/read HTTP/1.1" 200 - 4 0.000 0.000
+2023-08-25 17:48:06,643 3552 INFO ? werkzeug: 192.168.4.28 - - [25/Aug/2023 17:48:06] "GET /web/static/lib/ace/ace.js HTTP/1.1" 304 - 0 0.000 0.000
+2023-08-25 17:48:06,747 3552 INFO ? werkzeug: 192.168.4.28 - - [25/Aug/2023 17:48:06] "GET /web/static/lib/ace/mode-python.js HTTP/1.1" 304 - 0 0.000 0.010
+2023-08-25 17:48:06,752 3552 INFO ? werkzeug: 192.168.4.28 - - [25/Aug/2023 17:48:06] "GET /web/static/lib/ace/mode-qweb.js HTTP/1.1" 304 - 0 0.000 0.006
+2023-08-25 17:48:06,752 3552 INFO ? werkzeug: 192.168.4.28 - - [25/Aug/2023 17:48:06] "GET /web/static/lib/ace/mode-xml.js HTTP/1.1" 304 - 0 0.000 0.016
+2023-08-25 17:48:21,159 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 17:48:21] "GET /web/static/lib/ace/ext-searchbox.js HTTP/1.1" 404 - 129 0.023 1.102
+2023-08-25 17:51:10,627 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 17:51:10] "POST /web/dataset/call_kw/ir.ui.view/read HTTP/1.1" 200 - 13 0.016 0.016
+2023-08-25 17:51:10,643 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 17:51:10] "POST /web/dataset/call_kw/ir.ui.view/read HTTP/1.1" 200 - 4 0.000 0.000
+2023-08-25 17:51:44,953 3552 INFO maimex2 werkzeug: 192.168.4.201 - - [25/Aug/2023 17:51:44] "GET /web HTTP/1.1" 200 - 13 0.004 0.024
+2023-08-25 17:51:45,817 3552 INFO maimex2 werkzeug: 192.168.4.201 - - [25/Aug/2023 17:51:45] "GET /bus/websocket_worker_bundle?v=1.0.5 HTTP/1.1" 304 - 4 0.001 0.012
+2023-08-25 17:51:45,821 3552 INFO maimex2 werkzeug: 192.168.4.201 - - [25/Aug/2023 17:51:45] "POST /web/action/load HTTP/1.1" 200 - 10 0.008 0.012
+2023-08-25 17:51:45,877 3552 INFO ? werkzeug: 192.168.4.201 - - [25/Aug/2023 17:51:45] "GET /mail/static/src/audio/ting.ogg HTTP/1.1" 206 - 0 0.000 0.005
+2023-08-25 17:51:45,924 3552 INFO maimex2 werkzeug: 192.168.4.201 - - [25/Aug/2023 17:51:45] "POST /mail/init_messaging HTTP/1.1" 200 - 35 0.032 0.024
+2023-08-25 17:51:45,969 3552 INFO maimex2 werkzeug: 192.168.4.201 - - [25/Aug/2023 17:51:45] "POST /web/dataset/call_kw/res.users/systray_get_activities HTTP/1.1" 200 - 7 0.004 0.011
+2023-08-25 17:51:46,006 3552 INFO maimex2 werkzeug: 192.168.4.201 - - [25/Aug/2023 17:51:46] "POST /web/dataset/call_kw/web.environment.ribbon.backend/get_environment_ribbon HTTP/1.1" 200 - 1 0.002 0.014
+2023-08-25 17:51:46,009 3552 INFO maimex2 werkzeug: 192.168.4.201 - - [25/Aug/2023 17:51:46] "GET /web/image?model=res.users&field=avatar_128&id=6 HTTP/1.1" 304 - 8 0.014 0.012
+2023-08-25 17:51:46,022 3552 INFO maimex2 werkzeug: 192.168.4.201 - - [25/Aug/2023 17:51:46] "GET /websocket HTTP/1.1" 101 - 1 0.000 0.011
+2023-08-25 17:51:46,037 3552 INFO maimex2 werkzeug: 192.168.4.201 - - [25/Aug/2023 17:51:46] "POST /web/dataset/call_kw/stock.picking/get_views HTTP/1.1" 200 - 3 0.003 0.038
+2023-08-25 17:51:46,065 3552 INFO maimex2 werkzeug: 192.168.4.201 - - [25/Aug/2023 17:51:46] "POST /mail/load_message_failures HTTP/1.1" 200 - 3 0.004 0.012
+2023-08-25 17:51:46,067 3552 INFO maimex2 werkzeug: 192.168.4.201 - - [25/Aug/2023 17:51:46] "GET /web/image/res.company/1/favicon HTTP/1.1" 304 - 5 0.005 0.011
+2023-08-25 17:51:46,107 3552 INFO maimex2 werkzeug: 192.168.4.201 - - [25/Aug/2023 17:51:46] "GET /web/image/res.company/1/favicon HTTP/1.1" 304 - 5 0.003 0.009
+2023-08-25 17:51:46,172 3552 INFO maimex2 werkzeug: 192.168.4.201 - - [25/Aug/2023 17:51:46] "POST /web/dataset/call_kw/stock.picking/onchange HTTP/1.1" 200 - 3 0.005 0.012
+2023-08-25 17:51:46,173 3552 INFO maimex2 werkzeug: 192.168.4.201 - - [25/Aug/2023 17:51:46] "GET /web/image/res.company/1/favicon HTTP/1.1" 304 - 5 0.009 0.011
+2023-08-25 17:51:46,349 3552 INFO maimex2 werkzeug: 192.168.4.201 - - [25/Aug/2023 17:51:46] "GET /web/image/res.partner/8/avatar_128 HTTP/1.1" 304 - 6 0.002 0.010
+2023-08-25 17:51:46,439 3552 INFO maimex2 werkzeug: 192.168.4.201 - - [25/Aug/2023 17:51:46] "GET /web/image/res.company/1/favicon HTTP/1.1" 304 - 5 0.005 0.007
+2023-08-25 17:51:51,689 3552 INFO maimex2 werkzeug: 192.168.4.201 - - [25/Aug/2023 17:51:51] "GET /web/bundle/web_editor.assets_wysiwyg?lang=es_MX HTTP/1.1" 200 - 13 0.007 0.217
+2023-08-25 17:51:57,898 3552 INFO maimex2 werkzeug: 192.168.4.201 - - [25/Aug/2023 17:51:57] "POST /web/dataset/call_kw/res.users/name_search HTTP/1.1" 200 - 8 0.003 0.011
+2023-08-25 17:52:02,207 3552 INFO maimex2 werkzeug: 192.168.4.201 - - [25/Aug/2023 17:52:02] "POST /web/dataset/call_kw/res.users/name_search HTTP/1.1" 200 - 4 0.002 0.008
+2023-08-25 17:52:06,390 3552 INFO maimex2 werkzeug: 192.168.4.201 - - [25/Aug/2023 17:52:06] "POST /web/dataset/call_kw/res.users/has_group HTTP/1.1" 200 - 1 0.000 0.005
+2023-08-25 17:52:06,407 3552 INFO maimex2 werkzeug: 192.168.4.201 - - [25/Aug/2023 17:52:06] "POST /web/dataset/call_kw/stock.picking/web_search_read HTTP/1.1" 200 - 19 0.010 0.014
+2023-08-25 17:52:17,980 3552 WARNING maimex2 odoo.http: No hay nada para lo que comprobar disponibilidad. 
+2023-08-25 17:52:17,980 3552 INFO maimex2 werkzeug: 192.168.4.201 - - [25/Aug/2023 17:52:17] "POST /web/dataset/call_button HTTP/1.1" 200 - 9 0.006 0.031
+2023-08-25 17:52:20,186 3552 INFO maimex2 werkzeug: 192.168.4.201 - - [25/Aug/2023 17:52:20] "POST /web/dataset/call_button HTTP/1.1" 200 - 4 0.004 0.007
+2023-08-25 17:52:20,211 3552 INFO maimex2 werkzeug: 192.168.4.201 - - [25/Aug/2023 17:52:20] "POST /web/dataset/call_kw/stock.picking/web_search_read HTTP/1.1" 200 - 15 0.003 0.017
+2023-08-25 17:52:27,679 3552 INFO maimex2 odoo.models.unlink: User #6 deleted mail.message records with IDs: [198, 196] 
+2023-08-25 17:52:27,713 3552 INFO maimex2 odoo.models.unlink: User #6 deleted stock.picking records with IDs: [4, 5] 
+2023-08-25 17:52:27,723 3552 INFO maimex2 odoo.models.unlink: User #6 deleted mail.followers records with IDs: [52, 54] 
+2023-08-25 17:52:27,725 3552 INFO maimex2 werkzeug: 192.168.4.201 - - [25/Aug/2023 17:52:27] "POST /web/dataset/call_kw/stock.picking/unlink HTTP/1.1" 200 - 34 0.069 0.020
+2023-08-25 17:52:27,745 3552 INFO maimex2 werkzeug: 192.168.4.201 - - [25/Aug/2023 17:52:27] "POST /web/dataset/call_kw/stock.picking/web_search_read HTTP/1.1" 200 - 12 0.008 0.008
+2023-08-25 17:52:50,393 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 17:52:50] "POST /web/dataset/call_kw/stock.picking/web_search_read HTTP/1.1" 200 - 12 0.000 0.037
+2023-08-25 17:52:58,581 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 17:52:58] "POST /web/dataset/call_kw/ir.ui.view/get_views HTTP/1.1" 200 - 9 0.000 0.031
+2023-08-25 17:52:58,653 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 17:52:58] "POST /web/dataset/call_kw/ir.ui.view/web_search_read HTTP/1.1" 200 - 7 0.021 0.026
+2023-08-25 17:53:05,049 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 17:53:05] "POST /web/dataset/call_kw/ir.ui.view/web_search_read HTTP/1.1" 200 - 7 0.031 0.000
+2023-08-25 17:53:10,762 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 17:53:10] "POST /web/dataset/call_kw/ir.ui.view/web_search_read HTTP/1.1" 200 - 7 0.026 0.016
+2023-08-25 17:53:25,036 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 17:53:25] "POST /web/dataset/call_kw/ir.model/search HTTP/1.1" 200 - 3 0.016 0.000
+2023-08-25 17:53:25,099 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 17:53:25] "POST /web/dataset/call_kw/ir.model.fields/get_views HTTP/1.1" 200 - 28 0.016 0.031
+2023-08-25 17:53:25,146 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 17:53:25] "POST /web/dataset/call_kw/ir.model.fields/web_search_read HTTP/1.1" 200 - 6 0.016 0.001
+2023-08-25 17:53:39,409 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 17:53:39] "POST /web/dataset/call_kw/ir.model.fields/web_search_read HTTP/1.1" 200 - 4 0.000 0.006
+2023-08-25 17:53:41,518 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 17:53:41] "POST /web/dataset/call_kw/ir.model.fields/read HTTP/1.1" 200 - 12 0.016 0.016
+2023-08-25 17:53:47,825 3552 WARNING maimex2 odoo.http: ¡Las propiedades de los campos base no se pueden modificar de esta forma! Modifique las propiedades mediante código Python, preferentemente a través de un módulo personalizado. 
+2023-08-25 17:53:47,825 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 17:53:47] "POST /web/dataset/call_kw/ir.model.fields/write HTTP/1.1" 200 - 2 0.000 0.016
+2023-08-25 17:54:01,941 3552 WARNING maimex2 odoo.http: ¡Las propiedades de los campos base no se pueden modificar de esta forma! Modifique las propiedades mediante código Python, preferentemente a través de un módulo personalizado. 
+2023-08-25 17:54:01,941 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 17:54:01] "POST /web/dataset/call_kw/ir.model.fields/write HTTP/1.1" 200 - 2 0.000 0.016
+2023-08-25 17:54:03,597 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 17:54:03] "POST /web/dataset/call_kw/ir.model.fields/web_search_read HTTP/1.1" 200 - 5 0.000 0.032
+2023-08-25 17:56:29,762 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 17:56:29] "POST /web/action/load HTTP/1.1" 200 - 12 0.005 0.023
+2023-08-25 17:56:29,837 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 17:56:29] "POST /web/dataset/call_kw/stock.picking.type/get_views HTTP/1.1" 200 - 14 0.007 0.023
+2023-08-25 17:56:29,943 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 17:56:29] "POST /web/dataset/call_kw/stock.picking.type/web_search_read HTTP/1.1" 200 - 10 0.005 0.011
+2023-08-25 17:56:34,204 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 17:56:34] "POST /web/dataset/call_kw/stock.picking.type/web_read_group HTTP/1.1" 200 - 3 0.002 0.004
+2023-08-25 17:56:34,267 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 17:56:34] "POST /web/dataset/call_kw/stock.picking.type/web_search_read HTTP/1.1" 200 - 10 0.000 0.014
+2023-08-25 17:56:34,300 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 17:56:34] "POST /web/dataset/call_kw/stock.picking.type/web_search_read HTTP/1.1" 200 - 10 0.006 0.012
+2023-08-25 17:56:44,635 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 17:56:44] "POST /web/dataset/call_kw/stock.picking.type/read HTTP/1.1" 200 - 7 0.007 0.016
+2023-08-25 17:56:52,948 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 17:56:52] "POST /web/dataset/call_kw/stock.picking.type/write HTTP/1.1" 200 - 8 0.004 0.013
+2023-08-25 17:56:52,982 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 17:56:52] "POST /web/dataset/call_kw/stock.picking.type/read HTTP/1.1" 200 - 7 0.007 0.008
+2023-08-25 17:56:59,721 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 17:56:59] "POST /web/dataset/call_kw/stock.picking.type/onchange HTTP/1.1" 200 - 7 0.002 0.009
+2023-08-25 17:57:35,764 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 17:57:35] "POST /web/dataset/call_kw/stock.picking.type/name_search HTTP/1.1" 200 - 4 0.002 0.013
+2023-08-25 17:57:51,372 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 17:57:51] "POST /web/dataset/call_kw/stock.warehouse/name_search HTTP/1.1" 200 - 3 0.001 0.012
+2023-08-25 17:57:54,698 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 17:57:54] "POST /web/dataset/call_kw/stock.location/name_search HTTP/1.1" 200 - 3 0.003 0.006
+2023-08-25 17:58:03,892 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 17:58:03] "POST /web/dataset/call_kw/stock.picking.type/web_read_group HTTP/1.1" 200 - 3 0.001 0.006
+2023-08-25 17:58:03,931 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 17:58:03] "POST /web/dataset/call_kw/stock.picking.type/web_search_read HTTP/1.1" 200 - 10 0.005 0.012
+2023-08-25 17:58:03,932 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 17:58:03] "POST /web/dataset/call_kw/stock.picking.type/web_search_read HTTP/1.1" 200 - 10 0.007 0.012
+2023-08-25 17:58:10,676 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 17:58:10] "POST /web/dataset/call_button HTTP/1.1" 200 - 13 0.009 0.012
+2023-08-25 17:58:10,717 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 17:58:10] "POST /web/dataset/call_kw/stock.picking/get_views HTTP/1.1" 200 - 3 0.002 0.020
+2023-08-25 17:58:10,794 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 17:58:10] "POST /web/dataset/call_kw/stock.picking.type/name_get HTTP/1.1" 200 - 3 0.001 0.005
+2023-08-25 17:58:10,839 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 17:58:10] "POST /web/dataset/call_kw/stock.picking/web_search_read HTTP/1.1" 200 - 12 0.007 0.019
+2023-08-25 17:58:13,089 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 17:58:13] "POST /web/dataset/call_kw/stock.picking/onchange HTTP/1.1" 200 - 13 0.007 0.017
+2023-08-25 17:58:13,295 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 17:58:13] "GET /web/image/res.partner/3/avatar_128 HTTP/1.1" 304 - 7 0.005 0.010
+2023-08-25 17:58:15,269 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 17:58:15] "GET /web HTTP/1.1" 200 - 31 0.019 0.456
+2023-08-25 17:58:15,385 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 17:58:15] "GET /web/assets/debug/web.assets_backend.css HTTP/1.1" 304 - 5 0.007 0.020
+2023-08-25 17:58:15,388 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 17:58:15] "GET /web/assets/debug/web.assets_common.css HTTP/1.1" 304 - 5 0.009 0.021
+2023-08-25 17:58:15,388 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 17:58:15] "GET /web/assets/debug/web.assets_backend.js HTTP/1.1" 304 - 5 0.008 0.020
+2023-08-25 17:58:15,390 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 17:58:15] "GET /web/assets/debug/web.assets_backend_prod_only.js HTTP/1.1" 304 - 5 0.001 0.028
+2023-08-25 17:58:15,396 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 17:58:15] "GET /web/assets/debug/web.assets_common.js HTTP/1.1" 304 - 5 0.003 0.035
+2023-08-25 17:58:18,423 3552 INFO ? werkzeug: 192.168.4.28 - - [25/Aug/2023 17:58:18] "GET /web/static/img/favicon.ico HTTP/1.1" 304 - 0 0.000 0.002
+2023-08-25 17:58:18,456 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 17:58:18] "GET /bus/websocket_worker_bundle?v=1.0.5 HTTP/1.1" 304 - 4 0.004 0.012
+2023-08-25 17:58:18,460 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 17:58:18] "POST /web/action/load HTTP/1.1" 200 - 10 0.009 0.013
+2023-08-25 17:58:18,692 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 17:58:18] "POST /web/dataset/call_kw/web.environment.ribbon.backend/get_environment_ribbon HTTP/1.1" 200 - 1 0.001 0.004
+2023-08-25 17:58:18,704 3552 INFO ? werkzeug: 192.168.4.28 - - [25/Aug/2023 17:58:18] "GET /code_backend_theme/static/src/img/icons/close.png HTTP/1.1" 304 - 0 0.000 0.002
+2023-08-25 17:58:18,708 3552 INFO ? werkzeug: 192.168.4.28 - - [25/Aug/2023 17:58:18] "GET /code_backend_theme/static/src/img/code_logo.png HTTP/1.1" 304 - 0 0.000 0.002
+2023-08-25 17:58:18,730 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 17:58:18] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 304 - 9 0.005 0.016
+2023-08-25 17:58:18,746 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 17:58:18] "POST /web/dataset/call_kw/stock.picking/get_views HTTP/1.1" 200 - 3 0.001 0.030
+2023-08-25 17:58:18,755 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 17:58:18] "GET /websocket HTTP/1.1" 101 - 1 0.000 0.010
+2023-08-25 17:58:18,782 3552 INFO ? werkzeug: 192.168.4.28 - - [25/Aug/2023 17:58:18] "GET /web/static/src/libs/fontawesome/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 304 - 0 0.000 0.002
+2023-08-25 17:58:18,936 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 17:58:18] "POST /web/dataset/call_kw/stock.picking/onchange HTTP/1.1" 200 - 3 0.002 0.012
+2023-08-25 17:58:19,277 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 17:58:19] "POST /web/dataset/call_kw/res.users/systray_get_activities HTTP/1.1" 200 - 7 0.005 0.009
+2023-08-25 17:58:19,308 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 17:58:19] "POST /mail/init_messaging HTTP/1.1" 200 - 30 0.017 0.032
+2023-08-25 17:58:19,755 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 17:58:19] "GET /web/image/res.company/1/favicon HTTP/1.1" 304 - 5 0.002 0.008
+2023-08-25 17:58:19,789 3552 INFO ? werkzeug: 192.168.4.28 - - [25/Aug/2023 17:58:19] "GET /mail/static/src/audio/ting.ogg HTTP/1.1" 206 - 0 0.000 0.002
+2023-08-25 17:58:19,880 3552 INFO ? werkzeug: 192.168.4.28 - - [25/Aug/2023 17:58:19] "GET /web/static/lib/odoo_ui_icons/fonts/odoo_ui_icons.woff2 HTTP/1.1" 304 - 0 0.000 0.004
+2023-08-25 17:58:19,974 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 17:58:19] "POST /mail/load_message_failures HTTP/1.1" 200 - 3 0.003 0.005
+2023-08-25 17:58:20,166 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 17:58:20] "GET /web/image/res.partner/3/avatar_128 HTTP/1.1" 304 - 7 0.005 0.011
+2023-08-25 17:58:20,242 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 17:58:20] "GET /web/image/res.company/1/favicon HTTP/1.1" 304 - 5 0.004 0.013
+2023-08-25 17:58:31,341 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 17:58:31] "POST /web/dataset/call_kw/res.partner/name_search HTTP/1.1" 200 - 3 0.002 0.005
+2023-08-25 17:58:32,617 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 17:58:32] "POST /web/dataset/call_kw/stock.picking.type/name_search HTTP/1.1" 200 - 4 0.003 0.006
+2023-08-25 17:58:35,734 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 17:58:35] "POST /web/action/load HTTP/1.1" 200 - 9 0.003 0.011
+2023-08-25 17:58:35,756 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 17:58:35] "POST /web/dataset/call_kw/stock.picking.type/get_views HTTP/1.1" 200 - 2 0.001 0.010
+2023-08-25 17:58:35,811 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 17:58:35] "POST /web/dataset/call_kw/stock.picking.type/web_search_read HTTP/1.1" 200 - 10 0.008 0.006
+2023-08-25 17:58:37,802 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 17:58:37] "POST /web/dataset/call_button HTTP/1.1" 200 - 11 0.004 0.014
+2023-08-25 17:58:37,840 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 17:58:37] "POST /web/dataset/call_kw/stock.picking/get_views HTTP/1.1" 200 - 3 0.001 0.020
+2023-08-25 17:58:37,927 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 17:58:37] "POST /web/dataset/call_kw/stock.picking.type/name_get HTTP/1.1" 200 - 3 0.003 0.005
+2023-08-25 17:58:37,975 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 17:58:37] "POST /web/dataset/call_kw/res.users/has_group HTTP/1.1" 200 - 1 0.002 0.011
+2023-08-25 17:58:37,982 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 17:58:37] "POST /web/dataset/call_kw/stock.picking/web_search_read HTTP/1.1" 200 - 12 0.006 0.016
+2023-08-25 17:58:39,408 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 17:58:39] "POST /web/dataset/call_kw/stock.picking/onchange HTTP/1.1" 200 - 11 0.006 0.019
+2023-08-25 17:58:41,490 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 17:58:41] "POST /web/dataset/call_kw/res.partner/name_search HTTP/1.1" 200 - 3 0.001 0.007
+2023-08-25 17:58:45,025 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 17:58:45] "POST /web/dataset/call_kw/ir.ui.view/check_access_rights HTTP/1.1" 200 - 1 0.000 0.007
+2023-08-25 17:58:45,041 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 17:58:45] "POST /web/dataset/call_kw/ir.rule/check_access_rights HTTP/1.1" 200 - 1 0.001 0.009
+2023-08-25 17:58:45,043 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 17:58:45] "POST /web/dataset/call_kw/ir.model.access/check_access_rights HTTP/1.1" 200 - 1 0.001 0.005
+2023-08-25 17:58:48,802 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 17:58:48] "POST /web/dataset/call_kw/ir.ui.view/get_views HTTP/1.1" 200 - 1 0.001 0.006
+2023-08-25 17:58:48,888 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 17:58:48] "POST /web/dataset/call_kw/ir.ui.view/read HTTP/1.1" 200 - 13 0.009 0.009
+2023-08-25 17:58:48,916 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 17:58:48] "POST /web/dataset/call_kw/ir.ui.view/read HTTP/1.1" 200 - 4 0.002 0.007
+2023-08-25 17:58:48,994 3552 INFO ? werkzeug: 192.168.4.28 - - [25/Aug/2023 17:58:48] "GET /web/static/lib/ace/ace.js HTTP/1.1" 304 - 0 0.000 0.002
+2023-08-25 17:58:49,086 3552 INFO ? werkzeug: 192.168.4.28 - - [25/Aug/2023 17:58:49] "GET /web/static/lib/ace/mode-python.js HTTP/1.1" 304 - 0 0.000 0.002
+2023-08-25 17:58:49,090 3552 INFO ? werkzeug: 192.168.4.28 - - [25/Aug/2023 17:58:49] "GET /web/static/lib/ace/mode-xml.js HTTP/1.1" 304 - 0 0.000 0.002
+2023-08-25 17:58:49,093 3552 INFO ? werkzeug: 192.168.4.28 - - [25/Aug/2023 17:58:49] "GET /web/static/lib/ace/mode-qweb.js HTTP/1.1" 304 - 0 0.000 0.002
+2023-08-25 17:59:09,667 3552 INFO maimex2 odoo.modules.registry: At least one model cache has been invalidated, signaling through the database. 
+2023-08-25 17:59:09,668 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 17:59:09] "POST /web/dataset/call_kw/ir.ui.view/write HTTP/1.1" 200 - 52 0.042 0.081
+2023-08-25 17:59:09,716 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 17:59:09] "POST /web/dataset/call_kw/ir.ui.view/read HTTP/1.1" 200 - 28 0.013 0.018
+2023-08-25 17:59:09,742 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 17:59:09] "POST /web/dataset/call_kw/ir.ui.view/read HTTP/1.1" 200 - 4 0.003 0.006
+2023-08-25 17:59:12,238 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 17:59:12] "POST /web/dataset/call_kw/stock.picking/get_views HTTP/1.1" 200 - 105 0.052 0.130
+2023-08-25 17:59:12,332 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 17:59:12] "POST /web/dataset/call_kw/stock.picking/web_search_read HTTP/1.1" 200 - 23 0.013 0.027
+2023-08-25 17:59:13,550 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 17:59:13] "POST /web/dataset/call_kw/stock.picking/onchange HTTP/1.1" 200 - 14 0.004 0.018
+2023-08-25 17:59:17,126 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 17:59:17] "POST /web/dataset/call_kw/stock.picking/web_search_read HTTP/1.1" 200 - 12 0.006 0.017
+2023-08-25 17:59:18,981 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 17:59:18] "POST /web/dataset/call_kw/stock.picking/onchange HTTP/1.1" 200 - 11 0.006 0.016
+2023-08-25 17:59:23,909 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 17:59:23] "POST /web/dataset/call_kw/ir.ui.view/get_views HTTP/1.1" 200 - 19 0.009 0.025
+2023-08-25 17:59:23,972 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 17:59:23] "POST /web/dataset/call_kw/ir.ui.view/read HTTP/1.1" 200 - 13 0.008 0.010
+2023-08-25 17:59:23,998 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 17:59:23] "POST /web/dataset/call_kw/ir.ui.view/read HTTP/1.1" 200 - 4 0.002 0.007
+2023-08-25 17:59:37,234 3552 INFO maimex2 odoo.modules.registry: At least one model cache has been invalidated, signaling through the database. 
+2023-08-25 17:59:37,234 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 17:59:37] "POST /web/dataset/call_kw/ir.ui.view/write HTTP/1.1" 200 - 52 0.051 0.047
+2023-08-25 17:59:37,275 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 17:59:37] "POST /web/dataset/call_kw/ir.ui.view/read HTTP/1.1" 200 - 28 0.016 0.000
+2023-08-25 17:59:37,301 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 17:59:37] "POST /web/dataset/call_kw/ir.ui.view/read HTTP/1.1" 200 - 4 0.000 0.010
+2023-08-25 17:59:53,144 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 17:59:53] "POST /web/dataset/call_kw/ir.ui.view/get_views HTTP/1.1" 200 - 22 0.016 0.015
+2023-08-25 17:59:53,237 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 17:59:53] "POST /web/dataset/call_kw/ir.ui.view/read HTTP/1.1" 200 - 13 0.015 0.016
+2023-08-25 17:59:53,252 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 17:59:53] "POST /web/dataset/call_kw/ir.ui.view/read HTTP/1.1" 200 - 4 0.000 0.015
+2023-08-25 18:01:30,846 3552 WARNING maimex2 odoo.http: Ocurrió un error al validar la vista cercana a:
+
+                        <group>
+                            <label for="scheduled"/>
+                            <div class="o_row">
+                                <field name="scheduled" attrs="{'required': [('id', '!=', False)]}" decoration-warning="state not in ('done', 'cancel') and scheduled_date &lt; now" decoration-danger="state not in ('done', 'cancel') and scheduled_date &lt; current_date" decoration-bf="state not in ('done', 'cancel') and (scheduled_date &lt; current_date or scheduled_date &lt; now)"/>
+                                <field name="json_popover" nolabel="1" widget="stock_rescheduling_popover" attrs="{'invisible': [('json_popover', '=', False)]}"/>
+
+El campo "scheduled" no existe en el modelo "stock.picking" 
+2023-08-25 18:01:30,847 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 18:01:30] "POST /web/dataset/call_kw/ir.ui.view/write HTTP/1.1" 200 - 50 0.041 0.054
+2023-08-25 18:02:00,808 3552 WARNING maimex2 odoo.http: Ocurrió un error al validar la vista cercana a:
+
+<form string="Transfer" js_class="picking_form" __validate__="1">
+
+                <field name="is_locked" invisible="1"/>
+
+Nombre o ID 'scheduled' usado en <label for="..."> debe estar presente en la vista, pero no está disponible 
+2023-08-25 18:02:00,808 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 18:02:00] "POST /web/dataset/call_kw/ir.ui.view/write HTTP/1.1" 200 - 67 0.047 0.081
+2023-08-25 18:02:12,971 3552 WARNING maimex2 odoo.http: Ocurrió un error al validar la vista cercana a:
+
+                        <group>
+                            <label for="scheduled_date"/>
+                            <div class="o_row">
+                                <field name="scheduled" attrs="{'required': [('id', '!=', False)]}" decoration-warning="state not in ('done', 'cancel') and scheduled_date &lt; now" decoration-danger="state not in ('done', 'cancel') and scheduled_date &lt; current_date" decoration-bf="state not in ('done', 'cancel') and (scheduled_date &lt; current_date or scheduled_date &lt; now)"/>
+                                <field name="json_popover" nolabel="1" widget="stock_rescheduling_popover" attrs="{'invisible': [('json_popover', '=', False)]}"/>
+
+El campo "scheduled" no existe en el modelo "stock.picking" 
+2023-08-25 18:02:12,971 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 18:02:12] "POST /web/dataset/call_kw/ir.ui.view/write HTTP/1.1" 200 - 63 0.022 0.078
+2023-08-25 18:02:19,897 3552 INFO maimex2 odoo.modules.registry: At least one model cache has been invalidated, signaling through the database. 
+2023-08-25 18:02:19,899 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 18:02:19] "POST /web/dataset/call_kw/ir.ui.view/write HTTP/1.1" 200 - 59 0.054 0.047
+2023-08-25 18:02:19,925 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 18:02:19] "POST /web/dataset/call_kw/ir.ui.view/read HTTP/1.1" 200 - 25 0.000 0.016
+2023-08-25 18:02:20,018 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 18:02:20] "POST /web/dataset/call_kw/ir.ui.view/read HTTP/1.1" 200 - 4 0.000 0.000
+2023-08-25 18:02:28,409 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 18:02:28] "POST /web/dataset/call_kw/ir.ui.view/get_views HTTP/1.1" 200 - 22 0.011 0.031
+2023-08-25 18:02:28,471 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 18:02:28] "POST /web/dataset/call_kw/ir.ui.view/read HTTP/1.1" 200 - 13 0.000 0.016
+2023-08-25 18:02:28,502 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 18:02:28] "POST /web/dataset/call_kw/ir.ui.view/read HTTP/1.1" 200 - 4 0.000 0.000
+2023-08-25 18:03:44,096 3552 INFO maimex2 werkzeug: 192.168.4.201 - - [25/Aug/2023 18:03:44] "GET /websocket HTTP/1.1" 101 - 2 0.000 0.016
+2023-08-25 18:03:54,471 3552 INFO maimex2 odoo.modules.registry: At least one model cache has been invalidated, signaling through the database. 
+2023-08-25 18:03:54,471 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 18:03:54] "POST /web/dataset/call_kw/ir.ui.view/write HTTP/1.1" 200 - 52 0.031 0.060
+2023-08-25 18:03:54,518 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 18:03:54] "POST /web/dataset/call_kw/ir.ui.view/read HTTP/1.1" 200 - 28 0.000 0.021
+2023-08-25 18:03:54,534 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 18:03:54] "POST /web/dataset/call_kw/ir.ui.view/read HTTP/1.1" 200 - 4 0.000 0.000
+2023-08-25 18:03:58,580 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 18:03:58] "GET /web HTTP/1.1" 200 - 123 0.061 1.794
+2023-08-25 18:03:58,700 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 18:03:58] "GET /web/assets/debug/web.assets_backend.css HTTP/1.1" 304 - 5 0.026 0.016
+2023-08-25 18:03:58,700 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 18:03:58] "GET /web/assets/debug/web.assets_backend.js HTTP/1.1" 304 - 5 0.026 0.016
+2023-08-25 18:03:58,700 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 18:03:58] "GET /web/assets/debug/web.assets_backend_prod_only.js HTTP/1.1" 304 - 5 0.010 0.031
+2023-08-25 18:03:58,700 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 18:03:58] "GET /web/assets/debug/web.assets_common.js HTTP/1.1" 304 - 5 0.000 0.042
+2023-08-25 18:03:58,700 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 18:03:58] "GET /web/assets/debug/web.assets_common.css HTTP/1.1" 304 - 5 0.010 0.031
+2023-08-25 18:04:02,045 3552 INFO ? werkzeug: 192.168.4.28 - - [25/Aug/2023 18:04:02] "GET /web/static/img/favicon.ico HTTP/1.1" 304 - 0 0.000 0.004
+2023-08-25 18:04:02,191 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 18:04:02] "POST /web/action/load HTTP/1.1" 200 - 14 0.032 0.000
+2023-08-25 18:04:02,191 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 18:04:02] "GET /bus/websocket_worker_bundle?v=1.0.5 HTTP/1.1" 304 - 5 0.016 0.016
+2023-08-25 18:04:02,206 3552 INFO ? werkzeug: 192.168.4.28 - - [25/Aug/2023 18:04:02] "GET /code_backend_theme/static/src/img/icons/close.png HTTP/1.1" 304 - 0 0.000 0.000
+2023-08-25 18:04:02,206 3552 INFO ? werkzeug: 192.168.4.28 - - [25/Aug/2023 18:04:02] "GET /code_backend_theme/static/src/img/code_logo.png HTTP/1.1" 304 - 0 0.000 0.000
+2023-08-25 18:04:02,352 3552 INFO ? werkzeug: 192.168.4.28 - - [25/Aug/2023 18:04:02] "GET /web/static/src/libs/fontawesome/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 304 - 0 0.000 0.010
+2023-08-25 18:04:02,363 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 18:04:02] "POST /web/dataset/call_kw/web.environment.ribbon.backend/get_environment_ribbon HTTP/1.1" 200 - 4 0.005 0.017
+2023-08-25 18:04:02,374 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 18:04:02] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 304 - 19 0.029 0.030
+2023-08-25 18:04:02,424 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 18:04:02] "GET /websocket HTTP/1.1" 101 - 1 0.000 0.016
+2023-08-25 18:04:02,504 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 18:04:02] "POST /web/dataset/call_kw/stock.picking/get_views HTTP/1.1" 200 - 96 0.026 0.131
+2023-08-25 18:04:02,737 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 18:04:02] "POST /web/dataset/call_kw/stock.picking/onchange HTTP/1.1" 200 - 6 0.016 0.016
+2023-08-25 18:04:02,924 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 18:04:02] "POST /web/dataset/call_kw/res.users/systray_get_activities HTTP/1.1" 200 - 16 0.015 0.016
+2023-08-25 18:04:02,956 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 18:04:02] "POST /mail/init_messaging HTTP/1.1" 200 - 47 0.046 0.016
+2023-08-25 18:04:02,956 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 18:04:02] "GET /web/image/res.company/1/favicon HTTP/1.1" 304 - 5 0.000 0.000
+2023-08-25 18:04:03,409 3552 INFO ? werkzeug: 192.168.4.28 - - [25/Aug/2023 18:04:03] "GET /web/static/lib/odoo_ui_icons/fonts/odoo_ui_icons.woff2 HTTP/1.1" 304 - 0 0.000 0.000
+2023-08-25 18:04:03,456 3552 INFO ? werkzeug: 192.168.4.28 - - [25/Aug/2023 18:04:03] "GET /mail/static/src/audio/ting.ogg HTTP/1.1" 206 - 0 0.000 0.000
+2023-08-25 18:04:03,753 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 18:04:03] "POST /mail/load_message_failures HTTP/1.1" 200 - 3 0.000 0.015
+2023-08-25 18:04:03,987 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 18:04:03] "GET /web/image/res.partner/3/avatar_128 HTTP/1.1" 304 - 7 0.016 0.000
+2023-08-25 18:04:04,034 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 18:04:04] "GET /web/image/res.company/1/favicon HTTP/1.1" 304 - 5 0.000 0.016
+2023-08-25 18:04:06,877 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 18:04:06] "POST /web/dataset/call_kw/ir.ui.view/check_access_rights HTTP/1.1" 200 - 1 0.000 0.006
+2023-08-25 18:04:06,887 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 18:04:06] "POST /web/dataset/call_kw/ir.rule/check_access_rights HTTP/1.1" 200 - 1 0.001 0.007
+2023-08-25 18:04:06,889 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 18:04:06] "POST /web/dataset/call_kw/ir.model.access/check_access_rights HTTP/1.1" 200 - 1 0.003 0.004
+2023-08-25 18:04:10,034 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 18:04:10] "POST /web/dataset/call_kw/res.users/has_group HTTP/1.1" 200 - 2 0.000 0.015
+2023-08-25 18:04:10,065 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 18:04:10] "POST /web/dataset/call_kw/stock.picking/web_search_read HTTP/1.1" 200 - 19 0.025 0.021
+2023-08-25 18:04:11,298 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 18:04:11] "POST /web/dataset/call_kw/stock.picking/onchange HTTP/1.1" 200 - 3 0.010 0.016
+2023-08-25 18:04:13,368 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 18:04:13] "POST /web/dataset/call_kw/stock.location/name_search HTTP/1.1" 200 - 7 0.005 0.007
+2023-08-25 18:04:14,326 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 18:04:14] "POST /web/dataset/call_kw/stock.location/name_search HTTP/1.1" 200 - 3 0.003 0.007
+2023-08-25 18:04:20,217 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 18:04:20] "POST /web/dataset/call_kw/ir.ui.view/get_views HTTP/1.1" 200 - 19 0.012 0.017
+2023-08-25 18:04:20,284 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 18:04:20] "POST /web/dataset/call_kw/ir.ui.view/read HTTP/1.1" 200 - 13 0.015 0.000
+2023-08-25 18:04:20,319 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 18:04:20] "POST /web/dataset/call_kw/ir.ui.view/read HTTP/1.1" 200 - 4 0.002 0.005
+2023-08-25 18:04:20,394 3552 INFO ? werkzeug: 192.168.4.28 - - [25/Aug/2023 18:04:20] "GET /web/static/lib/ace/ace.js HTTP/1.1" 304 - 0 0.000 0.000
+2023-08-25 18:04:20,497 3552 INFO ? werkzeug: 192.168.4.28 - - [25/Aug/2023 18:04:20] "GET /web/static/lib/ace/mode-python.js HTTP/1.1" 304 - 0 0.000 0.000
+2023-08-25 18:04:20,502 3552 INFO ? werkzeug: 192.168.4.28 - - [25/Aug/2023 18:04:20] "GET /web/static/lib/ace/mode-qweb.js HTTP/1.1" 304 - 0 0.000 0.005
+2023-08-25 18:04:20,502 3552 INFO ? werkzeug: 192.168.4.28 - - [25/Aug/2023 18:04:20] "GET /web/static/lib/ace/mode-xml.js HTTP/1.1" 304 - 0 0.000 0.005
+2023-08-25 18:06:25,895 3552 ERROR maimex2 odoo.http: Exception during request handling. 
+Traceback (most recent call last):
+  File "C:\Program Files\Odoo 16.0.20230809\server\odoo\http.py", line 1998, in __call__
+    response = request._serve_db()
+  File "C:\Program Files\Odoo 16.0.20230809\server\odoo\http.py", line 1584, in _serve_db
+    return service_model.retrying(self._serve_ir_http, self.env)
+  File "C:\Program Files\Odoo 16.0.20230809\server\odoo\service\model.py", line 133, in retrying
+    result = func()
+  File "C:\Program Files\Odoo 16.0.20230809\server\odoo\http.py", line 1611, in _serve_ir_http
+    response = self.dispatcher.dispatch(rule.endpoint, args)
+  File "C:\Program Files\Odoo 16.0.20230809\server\odoo\http.py", line 1815, in dispatch
+    result = self.request.registry['ir.http']._dispatch(endpoint)
+  File "C:\Program Files\Odoo 16.0.20230809\server\odoo\addons\website\models\ir_http.py", line 235, in _dispatch
+    response = super()._dispatch(endpoint)
+  File "C:\Program Files\Odoo 16.0.20230809\server\odoo\addons\base\models\ir_http.py", line 154, in _dispatch
+    result = endpoint(**request.params)
+  File "C:\Program Files\Odoo 16.0.20230809\server\odoo\http.py", line 697, in route_wrapper
+    result = endpoint(self, *args, **params_ok)
+  File "C:\Program Files\Odoo 16.0.20230809\server\odoo\addons\web\controllers\dataset.py", line 42, in call_kw
+    return self._call_kw(model, method, args, kwargs)
+  File "C:\Program Files\Odoo 16.0.20230809\server\odoo\addons\web\controllers\dataset.py", line 33, in _call_kw
+    return call_kw(request.env[model], method, args, kwargs)
+  File "C:\Program Files\Odoo 16.0.20230809\server\odoo\api.py", line 461, in call_kw
+    result = _call_kw_multi(method, model, args, kwargs)
+  File "C:\Program Files\Odoo 16.0.20230809\server\odoo\api.py", line 448, in _call_kw_multi
+    result = method(recs, *args, **kwargs)
+  File "C:\Program Files\Odoo 16.0.20230809\server\odoo\addons\website\models\theme_models.py", line 376, in write
+    return super().write(vals)
+  File "C:\Program Files\Odoo 16.0.20230809\server\odoo\addons\website\models\ir_ui_view.py", line 93, in write
+    return super(View, self).write(vals)
+  File "C:\Program Files\Odoo 16.0.20230809\server\odoo\addons\base\models\ir_ui_view.py", line 573, in write
+    res = super(View, self).write(self._compute_defaults(vals))
+  File "C:\Program Files\Odoo 16.0.20230809\server\odoo\models.py", line 3787, in write
+    fields[0].determine_inverse(real_recs)
+  File "C:\Program Files\Odoo 16.0.20230809\server\odoo\fields.py", line 1396, in determine_inverse
+    determine(self.inverse, records)
+  File "C:\Program Files\Odoo 16.0.20230809\server\odoo\fields.py", line 97, in determine
+    return needle(*args)
+  File "C:\Program Files\Odoo 16.0.20230809\server\odoo\addons\base\models\ir_ui_view.py", line 358, in _inverse_arch_base
+    view_wo_lang.arch = view.arch_base
+  File "C:\Program Files\Odoo 16.0.20230809\server\odoo\fields.py", line 1320, in __set__
+    records.write({self.name: write_value})
+  File "C:\Program Files\Odoo 16.0.20230809\server\odoo\addons\website\models\theme_models.py", line 376, in write
+    return super().write(vals)
+  File "C:\Program Files\Odoo 16.0.20230809\server\odoo\addons\website\models\ir_ui_view.py", line 93, in write
+    return super(View, self).write(vals)
+  File "C:\Program Files\Odoo 16.0.20230809\server\odoo\addons\base\models\ir_ui_view.py", line 573, in write
+    res = super(View, self).write(self._compute_defaults(vals))
+  File "C:\Program Files\Odoo 16.0.20230809\server\odoo\models.py", line 3787, in write
+    fields[0].determine_inverse(real_recs)
+  File "C:\Program Files\Odoo 16.0.20230809\server\odoo\fields.py", line 1396, in determine_inverse
+    determine(self.inverse, records)
+  File "C:\Program Files\Odoo 16.0.20230809\server\odoo\fields.py", line 97, in determine
+    return needle(*args)
+  File "C:\Program Files\Odoo 16.0.20230809\server\odoo\addons\base\models\ir_ui_view.py", line 340, in _inverse_arch
+    view.write(data)
+  File "C:\Program Files\Odoo 16.0.20230809\server\odoo\addons\website\models\theme_models.py", line 376, in write
+    return super().write(vals)
+  File "C:\Program Files\Odoo 16.0.20230809\server\odoo\addons\website\models\ir_ui_view.py", line 93, in write
+    return super(View, self).write(vals)
+  File "C:\Program Files\Odoo 16.0.20230809\server\odoo\addons\base\models\ir_ui_view.py", line 573, in write
+    res = super(View, self).write(self._compute_defaults(vals))
+  File "C:\Program Files\Odoo 16.0.20230809\server\odoo\models.py", line 3777, in write
+    real_recs._validate_fields(vals, inverse_fields)
+  File "C:\Program Files\Odoo 16.0.20230809\server\odoo\models.py", line 1348, in _validate_fields
+    check(self)
+  File "C:\Program Files\Odoo 16.0.20230809\server\odoo\addons\base\models\ir_ui_view.py", line 433, in _check_xml
+    combined_arch = view._get_combined_arch()
+  File "C:\Program Files\Odoo 16.0.20230809\server\odoo\addons\base\models\ir_ui_view.py", line 999, in _get_combined_arch
+    arch = root.with_prefetch(tree_views._prefetch_ids)._combine(hierarchy)
+  File "C:\Program Files\Odoo 16.0.20230809\server\odoo\addons\base\models\ir_ui_view.py", line 917, in _combine
+    combined_arch = etree.fromstring(self.arch)
+  File "src\lxml\etree.pyx", line 3237, in lxml.etree.fromstring
+  File "src\lxml\parser.pxi", line 1896, in lxml.etree._parseMemoryDocument
+  File "src\lxml\parser.pxi", line 1777, in lxml.etree._parseDoc
+  File "src\lxml\parser.pxi", line 1082, in lxml.etree._BaseParser._parseUnicodeDoc
+  File "src\lxml\parser.pxi", line 615, in lxml.etree._ParserContext._handleParseResultDoc
+  File "src\lxml\parser.pxi", line 725, in lxml.etree._handleParseResult
+  File "src\lxml\parser.pxi", line 654, in lxml.etree._raiseParseError
+  File "<string>", line 86
+lxml.etree.XMLSyntaxError: Attribute decoration-warning redefined, line 86, column 465
+2023-08-25 18:06:25,895 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 18:06:25] "POST /web/dataset/call_kw/ir.ui.view/write HTTP/1.1" 200 - 33 0.028 0.033
+2023-08-25 18:06:33,222 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 18:06:33] "GET /web HTTP/1.1" 200 - 134 0.089 1.781
+2023-08-25 18:06:33,330 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 18:06:33] "GET /web/assets/debug/web.assets_backend.css HTTP/1.1" 304 - 5 0.012 0.033
+2023-08-25 18:06:33,333 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 18:06:33] "GET /web/assets/debug/web.assets_backend.js HTTP/1.1" 304 - 5 0.012 0.036
+2023-08-25 18:06:33,334 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 18:06:33] "GET /web/assets/debug/web.assets_common.css HTTP/1.1" 304 - 5 0.007 0.042
+2023-08-25 18:06:33,335 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 18:06:33] "GET /web/assets/debug/web.assets_common.js HTTP/1.1" 304 - 5 0.012 0.038
+2023-08-25 18:06:33,340 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 18:06:33] "GET /web/assets/debug/web.assets_backend_prod_only.js HTTP/1.1" 304 - 5 0.010 0.027
+2023-08-25 18:06:36,003 3552 INFO ? werkzeug: 192.168.4.28 - - [25/Aug/2023 18:06:36] "GET /web/static/img/favicon.ico HTTP/1.1" 304 - 0 0.000 0.000
+2023-08-25 18:06:36,127 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 18:06:36] "GET /bus/websocket_worker_bundle?v=1.0.5 HTTP/1.1" 304 - 5 0.000 0.021
+2023-08-25 18:06:36,127 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 18:06:36] "POST /web/action/load HTTP/1.1" 200 - 17 0.016 0.006
+2023-08-25 18:06:36,159 3552 INFO ? werkzeug: 192.168.4.28 - - [25/Aug/2023 18:06:36] "GET /code_backend_theme/static/src/img/icons/close.png HTTP/1.1" 304 - 0 0.000 0.000
+2023-08-25 18:06:36,159 3552 INFO ? werkzeug: 192.168.4.28 - - [25/Aug/2023 18:06:36] "GET /code_backend_theme/static/src/img/code_logo.png HTTP/1.1" 304 - 0 0.000 0.000
+2023-08-25 18:06:36,308 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 18:06:36] "POST /web/dataset/call_kw/web.environment.ribbon.backend/get_environment_ribbon HTTP/1.1" 200 - 4 0.004 0.023
+2023-08-25 18:06:36,310 3552 INFO ? werkzeug: 192.168.4.28 - - [25/Aug/2023 18:06:36] "GET /web/static/src/libs/fontawesome/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 304 - 0 0.000 0.025
+2023-08-25 18:06:36,325 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 18:06:36] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 304 - 19 0.033 0.026
+2023-08-25 18:06:36,346 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 18:06:36] "GET /websocket HTTP/1.1" 101 - 1 0.001 0.009
+2023-08-25 18:06:36,465 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 18:06:36] "POST /web/dataset/call_kw/stock.picking/get_views HTTP/1.1" 200 - 98 0.041 0.140
+2023-08-25 18:06:36,675 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 18:06:36] "POST /web/dataset/call_kw/stock.picking/onchange HTTP/1.1" 200 - 6 0.000 0.021
+2023-08-25 18:06:36,855 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 18:06:36] "POST /web/dataset/call_kw/res.users/systray_get_activities HTTP/1.1" 200 - 16 0.016 0.020
+2023-08-25 18:06:36,888 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 18:06:36] "POST /mail/init_messaging HTTP/1.1" 200 - 48 0.035 0.036
+2023-08-25 18:06:36,891 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 18:06:36] "GET /web/image/res.company/1/favicon HTTP/1.1" 304 - 5 0.002 0.008
+2023-08-25 18:06:37,216 3552 INFO ? werkzeug: 192.168.4.28 - - [25/Aug/2023 18:06:37] "GET /web/static/lib/odoo_ui_icons/fonts/odoo_ui_icons.woff2 HTTP/1.1" 304 - 0 0.000 0.000
+2023-08-25 18:06:37,306 3552 INFO ? werkzeug: 192.168.4.28 - - [25/Aug/2023 18:06:37] "GET /mail/static/src/audio/ting.ogg HTTP/1.1" 206 - 0 0.000 0.006
+2023-08-25 18:06:37,565 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 18:06:37] "POST /mail/load_message_failures HTTP/1.1" 200 - 3 0.000 0.000
+2023-08-25 18:06:37,721 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 18:06:37] "GET /web/image/res.partner/3/avatar_128 HTTP/1.1" 304 - 7 0.021 0.000
+2023-08-25 18:06:37,747 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 18:06:37] "GET /web/image/res.company/1/favicon HTTP/1.1" 304 - 5 0.010 0.000
+2023-08-25 18:06:38,581 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 18:06:38] "POST /web/dataset/call_kw/res.partner/name_search HTTP/1.1" 200 - 7 0.000 0.016
+2023-08-25 18:06:44,222 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 18:06:44] "POST /web/action/load HTTP/1.1" 200 - 12 0.009 0.015
+2023-08-25 18:06:44,254 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 18:06:44] "POST /web/dataset/call_kw/stock.picking.type/get_views HTTP/1.1" 200 - 21 0.001 0.031
+2023-08-25 18:06:44,332 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 18:06:44] "POST /web/dataset/call_kw/stock.picking.type/web_search_read HTTP/1.1" 200 - 17 0.014 0.014
+2023-08-25 18:06:45,643 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 18:06:45] "POST /web/dataset/call_button HTTP/1.1" 200 - 17 0.016 0.022
+2023-08-25 18:06:45,675 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 18:06:45] "POST /web/dataset/call_kw/stock.picking/get_views HTTP/1.1" 200 - 3 0.000 0.016
+2023-08-25 18:06:45,752 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 18:06:45] "POST /web/dataset/call_kw/stock.picking.type/name_get HTTP/1.1" 200 - 3 0.003 0.007
+2023-08-25 18:06:45,797 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 18:06:45] "POST /web/dataset/call_kw/res.users/has_group HTTP/1.1" 200 - 2 0.002 0.011
+2023-08-25 18:06:45,824 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 18:06:45] "POST /web/dataset/call_kw/stock.picking/web_search_read HTTP/1.1" 200 - 15 0.011 0.029
+2023-08-25 18:06:46,768 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 18:06:46] "POST /web/dataset/call_kw/stock.picking/onchange HTTP/1.1" 200 - 13 0.000 0.021
+2023-08-25 18:06:55,753 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 18:06:55] "POST /web/dataset/call_kw/stock.picking.type/name_search HTTP/1.1" 200 - 4 0.000 0.016
+2023-08-25 18:06:59,023 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 18:06:59] "POST /web/dataset/call_kw/stock.picking/onchange HTTP/1.1" 200 - 5 0.003 0.016
+2023-08-25 18:07:00,353 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 18:07:00] "POST /web/dataset/call_kw/stock.location/name_search HTTP/1.1" 200 - 7 0.007 0.010
+2023-08-25 18:07:03,440 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 18:07:03] "POST /web/dataset/call_kw/stock.location/get_formview_action HTTP/1.1" 200 - 1 0.000 0.015
+2023-08-25 18:07:03,550 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 18:07:03] "POST /web/dataset/call_kw/stock.picking/create HTTP/1.1" 200 - 42 0.062 0.016
+2023-08-25 18:07:03,612 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 18:07:03] "POST /web/dataset/call_kw/stock.location/get_views HTTP/1.1" 200 - 22 0.016 0.016
+2023-08-25 18:07:03,643 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 18:07:03] "POST /mail/thread/messages HTTP/1.1" 200 - 20 0.000 0.016
+2023-08-25 18:07:03,643 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 18:07:03] "POST /mail/thread/data HTTP/1.1" 200 - 19 0.016 0.000
+2023-08-25 18:07:03,658 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 18:07:03] "POST /web/dataset/call_kw/stock.location/read HTTP/1.1" 200 - 4 0.000 0.000
+2023-08-25 18:07:05,737 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 18:07:05] "POST /web/dataset/call_kw/stock.location/get_formview_action HTTP/1.1" 200 - 13 0.021 0.000
+2023-08-25 18:07:05,811 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 18:07:05] "POST /web/dataset/call_kw/stock.location/read HTTP/1.1" 200 - 12 0.019 0.024
+2023-08-25 18:07:05,890 3552 INFO maimex2 odoo.modules.registry: At least one model cache has been invalidated, signaling through the database. 
+2023-08-25 18:07:05,891 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 18:07:05] "GET /web/bundle/web_editor.assets_wysiwyg?lang=es_MX&debug=assets HTTP/1.1" 200 - 56 0.055 2.031
+2023-08-25 18:07:05,929 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 18:07:05] "GET /web/assets/debug/web_editor.assets_wysiwyg.css HTTP/1.1" 200 - 15 0.008 0.018
+2023-08-25 18:07:06,112 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 18:07:06] "GET /web/assets/debug/web_editor.assets_wysiwyg.js HTTP/1.1" 200 - 15 0.008 0.199
+2023-08-25 18:07:23,659 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 18:07:23] "POST /web/dataset/call_kw/stock.picking/get_views HTTP/1.1" 200 - 110 0.049 0.108
+2023-08-25 18:07:23,878 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 18:07:23] "POST /web/dataset/call_kw/stock.picking/read HTTP/1.1" 200 - 44 0.040 0.039
+2023-08-25 18:07:23,988 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 18:07:23] "POST /mail/thread/messages HTTP/1.1" 200 - 8 0.016 0.003
+2023-08-25 18:07:24,018 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 18:07:24] "POST /mail/thread/data HTTP/1.1" 200 - 29 0.046 0.001
+2023-08-25 18:07:28,534 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 18:07:28] "POST /web/dataset/call_kw/stock.picking.type/name_search HTTP/1.1" 200 - 4 0.000 0.016
+2023-08-25 18:07:30,200 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 18:07:30] "POST /web/dataset/call_kw/stock.picking/onchange HTTP/1.1" 200 - 10 0.016 0.010
+2023-08-25 18:07:30,257 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 18:07:30] "POST /mail/thread/messages HTTP/1.1" 200 - 4 0.016 0.010
+2023-08-25 18:07:30,273 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 18:07:30] "POST /mail/thread/data HTTP/1.1" 200 - 11 0.010 0.032
+2023-08-25 18:07:30,955 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 18:07:30] "POST /web/dataset/call_kw/stock.picking.type/name_search HTTP/1.1" 200 - 4 0.000 0.016
+2023-08-25 18:07:31,550 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 18:07:31] "POST /web/dataset/call_kw/stock.picking/onchange HTTP/1.1" 200 - 9 0.016 0.014
+2023-08-25 18:07:31,581 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 18:07:31] "POST /mail/thread/messages HTTP/1.1" 200 - 4 0.000 0.000
+2023-08-25 18:07:31,597 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 18:07:31] "POST /mail/thread/data HTTP/1.1" 200 - 11 0.001 0.016
+2023-08-25 18:07:35,409 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 18:07:35] "POST /web/dataset/call_kw/stock.picking/write HTTP/1.1" 200 - 14 0.000 0.030
+2023-08-25 18:07:35,471 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 18:07:35] "POST /mail/thread/messages HTTP/1.1" 200 - 4 0.000 0.015
+2023-08-25 18:07:35,487 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 18:07:35] "POST /mail/thread/data HTTP/1.1" 200 - 11 0.016 0.015
+2023-08-25 18:07:35,502 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 18:07:35] "POST /web/dataset/call_kw/stock.picking.type/web_search_read HTTP/1.1" 200 - 10 0.000 0.015
+2023-08-25 18:07:36,630 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 18:07:36] "POST /web/dataset/call_button HTTP/1.1" 200 - 19 0.004 0.030
+2023-08-25 18:07:36,682 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 18:07:36] "POST /web/dataset/call_kw/stock.picking.type/name_get HTTP/1.1" 200 - 3 0.002 0.009
+2023-08-25 18:07:36,721 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 18:07:36] "POST /web/dataset/call_kw/stock.picking/web_search_read HTTP/1.1" 200 - 16 0.016 0.015
+2023-08-25 18:07:37,440 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 18:07:37] "POST /web/dataset/call_kw/stock.picking/onchange HTTP/1.1" 200 - 12 0.031 0.000
+2023-08-25 18:07:51,706 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 18:07:51] "POST /web/dataset/call_kw/ir.ui.view/check_access_rights HTTP/1.1" 200 - 1 0.000 0.016
+2023-08-25 18:07:51,706 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 18:07:51] "POST /web/dataset/call_kw/ir.rule/check_access_rights HTTP/1.1" 200 - 1 0.000 0.016
+2023-08-25 18:07:51,706 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 18:07:51] "POST /web/dataset/call_kw/ir.model.access/check_access_rights HTTP/1.1" 200 - 1 0.000 0.016
+2023-08-25 18:07:53,222 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 18:07:53] "POST /web/dataset/call_kw/ir.ui.view/get_views HTTP/1.1" 200 - 20 0.016 0.031
+2023-08-25 18:07:53,307 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 18:07:53] "POST /web/dataset/call_kw/ir.ui.view/read HTTP/1.1" 200 - 20 0.019 0.019
+2023-08-25 18:07:53,330 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 18:07:53] "POST /web/dataset/call_kw/ir.ui.view/read HTTP/1.1" 200 - 4 0.001 0.005
+2023-08-25 18:07:53,394 3552 INFO ? werkzeug: 192.168.4.28 - - [25/Aug/2023 18:07:53] "GET /web/static/lib/ace/ace.js HTTP/1.1" 304 - 0 0.000 0.000
+2023-08-25 18:07:53,502 3552 INFO ? werkzeug: 192.168.4.28 - - [25/Aug/2023 18:07:53] "GET /web/static/lib/ace/mode-python.js HTTP/1.1" 304 - 0 0.000 0.000
+2023-08-25 18:07:53,518 3552 INFO ? werkzeug: 192.168.4.28 - - [25/Aug/2023 18:07:53] "GET /web/static/lib/ace/mode-xml.js HTTP/1.1" 304 - 0 0.000 0.016
+2023-08-25 18:07:53,518 3552 INFO ? werkzeug: 192.168.4.28 - - [25/Aug/2023 18:07:53] "GET /web/static/lib/ace/mode-qweb.js HTTP/1.1" 304 - 0 0.000 0.016
+2023-08-25 18:09:10,606 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 18:09:10] "POST /web/dataset/call_kw/res.partner/name_search HTTP/1.1" 200 - 7 0.010 0.000
+2023-08-25 18:09:11,867 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 18:09:11] "POST /web/dataset/call_kw/stock.picking/onchange HTTP/1.1" 200 - 5 0.005 0.017
+2023-08-25 18:09:15,394 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 18:09:15] "POST /web/dataset/call_kw/stock.picking.type/name_search HTTP/1.1" 200 - 4 0.000 0.016
+2023-08-25 18:09:17,339 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 18:09:17] "POST /web/dataset/call_kw/stock.picking.type/name_search HTTP/1.1" 200 - 4 0.002 0.010
+2023-08-25 18:09:20,894 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 18:09:20] "POST /web/dataset/call_kw/stock.location/name_search HTTP/1.1" 200 - 3 0.000 0.016
+2023-08-25 18:09:25,658 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 18:09:25] "POST /web/dataset/call_kw/stock.location/name_search HTTP/1.1" 200 - 3 0.000 0.000
+2023-08-25 18:09:29,402 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 18:09:29] "POST /web/dataset/call_kw/stock.location/name_search HTTP/1.1" 200 - 2 0.001 0.009
+2023-08-25 18:09:32,269 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 18:09:32] "POST /web/dataset/call_kw/stock.location/name_search HTTP/1.1" 200 - 2 0.000 0.000
+2023-08-25 18:09:33,721 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 18:09:33] "POST /web/dataset/call_kw/stock.location/name_search HTTP/1.1" 200 - 2 0.000 0.000
+2023-08-25 18:09:34,941 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 18:09:34] "POST /web/dataset/call_kw/stock.location/name_search HTTP/1.1" 200 - 3 0.000 0.016
+2023-08-25 18:09:36,565 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 18:09:36] "POST /web/dataset/call_kw/stock.picking/onchange HTTP/1.1" 200 - 1 0.000 0.016
+2023-08-25 18:09:38,022 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 18:09:38] "POST /web/dataset/call_kw/stock.location/name_search HTTP/1.1" 200 - 3 0.001 0.005
+2023-08-25 18:09:40,378 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 18:09:40] "POST /web/dataset/call_kw/stock.location/get_views HTTP/1.1" 200 - 15 0.008 0.016
+2023-08-25 18:09:40,409 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 18:09:40] "POST /web/dataset/call_kw/stock.location/web_search_read HTTP/1.1" 200 - 4 0.000 0.000
+2023-08-25 18:09:45,460 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 18:09:45] "POST /web/dataset/call_kw/stock.location/name_search HTTP/1.1" 200 - 3 0.002 0.009
+2023-08-25 18:09:47,784 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 18:09:47] "POST /web/dataset/call_kw/stock.picking/onchange HTTP/1.1" 200 - 1 0.000 0.016
+2023-08-25 18:09:48,815 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 18:09:48] "POST /web/dataset/call_kw/stock.location/name_search HTTP/1.1" 200 - 3 0.002 0.008
+2023-08-25 18:09:55,324 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 18:09:55] "POST /web/dataset/call_kw/stock.location/get_formview_action HTTP/1.1" 200 - 1 0.000 0.007
+2023-08-25 18:09:55,425 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 18:09:55] "POST /web/dataset/call_kw/stock.picking/create HTTP/1.1" 200 - 41 0.050 0.026
+2023-08-25 18:09:55,523 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 18:09:55] "POST /mail/thread/data HTTP/1.1" 200 - 12 0.013 0.019
+2023-08-25 18:09:55,528 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 18:09:55] "POST /web/dataset/call_kw/stock.location/read HTTP/1.1" 200 - 2 0.002 0.009
+2023-08-25 18:09:55,529 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 18:09:55] "POST /mail/thread/messages HTTP/1.1" 200 - 19 0.024 0.016
+2023-08-25 18:10:05,284 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 18:10:05] "POST /web/dataset/call_kw/stock.location/write HTTP/1.1" 200 - 15 0.016 0.016
+2023-08-25 18:10:05,304 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 18:10:05] "POST /web/dataset/call_kw/stock.location/read HTTP/1.1" 200 - 2 0.001 0.018
+2023-08-25 18:10:07,238 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 18:10:07] "POST /web/dataset/call_kw/stock.picking/onchange HTTP/1.1" 200 - 3 0.000 0.016
+2023-08-25 18:10:07,440 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 18:10:07] "GET /web/image/res.partner/3/avatar_128 HTTP/1.1" 304 - 7 0.000 0.000
+2023-08-25 18:10:09,901 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 18:10:09] "POST /web/dataset/call_kw/stock.location/name_search HTTP/1.1" 200 - 3 0.002 0.003
+2023-08-25 18:10:10,497 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 18:10:10] "POST /web/dataset/call_kw/stock.location/name_search HTTP/1.1" 200 - 3 0.000 0.010
+2023-08-25 18:10:16,097 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 18:10:16] "POST /web/dataset/call_kw/stock.picking/onchange HTTP/1.1" 200 - 1 0.000 0.016
+2023-08-25 18:10:17,441 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 18:10:17] "POST /web/dataset/call_kw/stock.location/get_formview_action HTTP/1.1" 200 - 1 0.000 0.000
+2023-08-25 18:10:21,612 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 18:10:21] "POST /web/dataset/call_kw/stock.picking.type/name_search HTTP/1.1" 200 - 4 0.000 0.016
+2023-08-25 18:10:22,580 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 18:10:22] "POST /web/dataset/call_kw/stock.picking/onchange HTTP/1.1" 200 - 7 0.006 0.019
+2023-08-25 18:10:25,127 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 18:10:25] "POST /web/dataset/call_kw/stock.picking/create HTTP/1.1" 200 - 20 0.031 0.031
+2023-08-25 18:10:25,210 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 18:10:25] "POST /mail/thread/data HTTP/1.1" 200 - 11 0.009 0.018
+2023-08-25 18:10:25,219 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 18:10:25] "POST /mail/thread/messages HTTP/1.1" 200 - 19 0.021 0.018
+2023-08-25 18:10:25,225 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 18:10:25] "POST /web/dataset/call_kw/stock.picking.type/web_search_read HTTP/1.1" 200 - 10 0.008 0.009
+2023-08-25 18:10:26,098 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 18:10:26] "POST /web/dataset/call_button HTTP/1.1" 200 - 11 0.000 0.017
+2023-08-25 18:10:26,143 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 18:10:26] "POST /web/dataset/call_kw/stock.picking.type/name_get HTTP/1.1" 200 - 3 0.000 0.000
+2023-08-25 18:10:26,206 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 18:10:26] "POST /web/dataset/call_kw/stock.picking/web_search_read HTTP/1.1" 200 - 15 0.016 0.031
+2023-08-25 18:10:27,783 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 18:10:27] "POST /web/dataset/call_kw/stock.picking/onchange HTTP/1.1" 200 - 11 0.000 0.031
+2023-08-25 18:10:40,563 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 18:10:40] "POST /web/dataset/call_kw/stock.move/onchange HTTP/1.1" 200 - 11 0.025 0.020
+2023-08-25 18:10:41,502 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 18:10:41] "POST /web/dataset/call_kw/product.product/name_search HTTP/1.1" 200 - 13 0.016 0.016
+2023-08-25 18:10:44,241 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 18:10:44] "POST /web/dataset/call_kw/product.product/name_search HTTP/1.1" 200 - 5 0.018 0.017
+2023-08-25 18:10:49,647 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 18:10:49] "POST /web/dataset/call_kw/stock.move/onchange HTTP/1.1" 200 - 29 0.019 0.030
+2023-08-25 18:13:09,190 3552 INFO maimex2 werkzeug: 192.168.4.1 - - [25/Aug/2023 18:13:09] "GET / HTTP/1.1" 200 - 135 0.040 1.116
+2023-08-25 18:13:09,288 3552 INFO ? werkzeug: 192.168.4.1 - - [25/Aug/2023 18:13:09] "GET /web/static/src/libs/fontawesome/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 304 - 1 0.016 0.041
+2023-08-25 18:13:09,861 3552 INFO maimex2 werkzeug: 192.168.4.1 - - [25/Aug/2023 18:13:09] "GET /web/image/website/1/logo/MAIMEX%20-Sistema?unique=dbf8e11 HTTP/1.1" 200 - 9 0.006 0.053
+2023-08-25 18:13:10,273 3552 INFO maimex2 werkzeug: 192.168.4.1 - - [25/Aug/2023 18:13:10] "GET /web/image/website/1/favicon?unique=dbf8e11 HTTP/1.1" 200 - 9 0.000 0.176
+2023-08-25 18:13:10,544 3552 INFO maimex2 werkzeug: 192.168.4.1 - - [25/Aug/2023 18:13:10] "GET /web/webclient/locale/es_MX HTTP/1.1" 200 - 2 0.003 0.055
+2023-08-25 18:13:19,273 3552 INFO maimex2 werkzeug: 192.168.4.1 - - [25/Aug/2023 18:13:19] "GET /web HTTP/1.1" 303 - 2 0.000 0.026
+2023-08-25 18:13:19,543 3552 INFO maimex2 werkzeug: 192.168.4.1 - - [25/Aug/2023 18:13:19] "GET /web/login HTTP/1.1" 200 - 22 0.005 0.249
+2023-08-25 18:13:36,753 3552 INFO maimex2 odoo.addons.base.models.res_users: Login successful for db:maimex2 login:asahel@maimex.com.mx from 192.168.4.1 
+2023-08-25 18:13:36,768 3552 INFO maimex2 odoo.models.unlink: User #4 deleted website.visitor records with IDs: [122] 
+2023-08-25 18:13:36,768 3552 INFO maimex2 werkzeug: 192.168.4.1 - - [25/Aug/2023 18:13:36] "POST /web/login HTTP/1.1" 303 - 61 0.041 0.459
+2023-08-25 18:13:38,925 3552 INFO maimex2 werkzeug: 192.168.4.1 - - [25/Aug/2023 18:13:38] "GET /web HTTP/1.1" 200 - 119 0.074 2.067
+2023-08-25 18:13:38,971 3552 INFO maimex2 werkzeug: 192.168.4.1 - - [25/Aug/2023 18:13:38] "GET /web/webclient/load_menus/3e9d59d0b54a1c74d4faeb63791ebf5441a6ceebf278e5ec120219122674a36d HTTP/1.1" 200 - 1 0.000 0.015
+2023-08-25 18:13:38,971 3552 INFO maimex2 werkzeug: 192.168.4.1 - - [25/Aug/2023 18:13:38] "GET /web/assets/926-b6c148d/web.assets_backend.min.css HTTP/1.1" 200 - 4 0.015 0.000
+2023-08-25 18:13:38,971 3552 INFO maimex2 werkzeug: 192.168.4.1 - - [25/Aug/2023 18:13:38] "GET /web/assets/823-f78ecf4/web.assets_common.min.js HTTP/1.1" 200 - 4 0.000 0.015
+2023-08-25 18:13:38,971 3552 INFO maimex2 werkzeug: 192.168.4.1 - - [25/Aug/2023 18:13:38] "GET /web/assets/824-b6c148d/web.assets_backend.min.js HTTP/1.1" 200 - 4 0.000 0.015
+2023-08-25 18:13:38,987 3552 INFO maimex2 werkzeug: 192.168.4.1 - - [25/Aug/2023 18:13:38] "GET /web/assets/954-f78ecf4/web.assets_common.min.css HTTP/1.1" 200 - 4 0.000 0.031
+2023-08-25 18:13:40,565 3552 INFO maimex2 werkzeug: 192.168.4.1 - - [25/Aug/2023 18:13:40] "POST /web/action/load HTTP/1.1" 200 - 8 0.015 0.016
+2023-08-25 18:13:40,565 3552 INFO maimex2 werkzeug: 192.168.4.1 - - [25/Aug/2023 18:13:40] "GET /bus/websocket_worker_bundle?v=1.0.5 HTTP/1.1" 304 - 5 0.000 0.015
+2023-08-25 18:13:40,659 3552 INFO maimex2 werkzeug: 192.168.4.1 - - [25/Aug/2023 18:13:40] "POST /web/dataset/call_kw/web.environment.ribbon.backend/get_environment_ribbon HTTP/1.1" 200 - 4 0.000 0.016
+2023-08-25 18:13:40,659 3552 INFO ? werkzeug: 192.168.4.1 - - [25/Aug/2023 18:13:40] "GET /code_backend_theme/static/src/img/icons/close.png HTTP/1.1" 200 - 0 0.000 0.016
+2023-08-25 18:13:40,659 3552 INFO ? werkzeug: 192.168.4.1 - - [25/Aug/2023 18:13:40] "GET /code_backend_theme/static/src/img/code_logo.png HTTP/1.1" 200 - 0 0.000 0.000
+2023-08-25 18:13:40,690 3552 INFO maimex2 werkzeug: 192.168.4.1 - - [25/Aug/2023 18:13:40] "GET /web/image?model=res.users&field=avatar_128&id=7 HTTP/1.1" 304 - 8 0.016 0.016
+2023-08-25 18:13:40,819 3552 INFO maimex2 werkzeug: 192.168.4.1 - - [25/Aug/2023 18:13:40] "GET /websocket HTTP/1.1" 101 - 1 0.000 0.010
+2023-08-25 18:13:40,909 3552 INFO maimex2 werkzeug: 192.168.4.1 - - [25/Aug/2023 18:13:40] "POST /web/dataset/call_kw/res.users/systray_get_activities HTTP/1.1" 200 - 16 0.010 0.010
+2023-08-25 18:13:40,941 3552 INFO maimex2 werkzeug: 192.168.4.1 - - [25/Aug/2023 18:13:40] "POST /mail/init_messaging HTTP/1.1" 200 - 50 0.043 0.010
+2023-08-25 18:13:40,941 3552 INFO ? werkzeug: 192.168.4.1 - - [25/Aug/2023 18:13:40] "GET /mail/static/src/audio/ting.ogg HTTP/1.1" 206 - 0 0.000 0.016
+2023-08-25 18:13:40,941 3552 INFO maimex2 werkzeug: 192.168.4.1 - - [25/Aug/2023 18:13:40] "GET /web/image/res.company/1/favicon HTTP/1.1" 304 - 5 0.000 0.016
+2023-08-25 18:13:40,988 3552 INFO maimex2 werkzeug: 192.168.4.1 - - [25/Aug/2023 18:13:40] "POST /mail/inbox/messages HTTP/1.1" 200 - 5 0.000 0.000
+2023-08-25 18:13:40,988 3552 INFO maimex2 werkzeug: 192.168.4.1 - - [25/Aug/2023 18:13:40] "POST /mail/load_message_failures HTTP/1.1" 200 - 3 0.000 0.000
+2023-08-25 18:13:41,065 3552 INFO maimex2 werkzeug: 192.168.4.1 - - [25/Aug/2023 18:13:41] "GET /web/image/res.partner/3/avatar_128 HTTP/1.1" 304 - 7 0.031 0.001
+2023-08-25 18:13:41,097 3552 INFO maimex2 werkzeug: 192.168.4.1 - - [25/Aug/2023 18:13:41] "GET /web/image/res.company/1/favicon HTTP/1.1" 304 - 5 0.000 0.016
+2023-08-25 18:13:41,112 3552 INFO maimex2 werkzeug: 192.168.4.1 - - [25/Aug/2023 18:13:41] "GET /web/image/res.company/1/favicon HTTP/1.1" 304 - 5 0.000 0.000
+2023-08-25 18:13:41,503 3552 INFO maimex2 werkzeug: 192.168.4.1 - - [25/Aug/2023 18:13:41] "GET /web/image/res.company/1/favicon HTTP/1.1" 304 - 5 0.001 0.173
+2023-08-25 18:14:16,242 3552 INFO maimex2 werkzeug: 192.168.4.1 - - [25/Aug/2023 18:14:16] "POST /web/action/load HTTP/1.1" 200 - 12 0.003 0.024
+2023-08-25 18:14:16,304 3552 INFO maimex2 werkzeug: 192.168.4.1 - - [25/Aug/2023 18:14:16] "POST /web/dataset/call_kw/stock.picking.type/get_views HTTP/1.1" 200 - 31 0.024 0.030
+2023-08-25 18:14:16,361 3552 INFO maimex2 werkzeug: 192.168.4.1 - - [25/Aug/2023 18:14:16] "POST /web/dataset/call_kw/stock.picking.type/web_search_read HTTP/1.1" 200 - 17 0.007 0.011
+2023-08-25 18:14:16,518 3552 INFO ? werkzeug: 192.168.4.1 - - [25/Aug/2023 18:14:16] "GET /web/static/lib/odoo_ui_icons/fonts/odoo_ui_icons.woff2 HTTP/1.1" 304 - 0 0.000 0.000
+2023-08-25 18:14:28,096 3552 INFO maimex2 werkzeug: 192.168.4.1 - - [25/Aug/2023 18:14:28] "POST /web/dataset/call_button HTTP/1.1" 200 - 15 0.016 0.016
+2023-08-25 18:14:28,127 3552 INFO maimex2 werkzeug: 192.168.4.1 - - [25/Aug/2023 18:14:28] "POST /web/dataset/call_kw/stock.picking/get_views HTTP/1.1" 200 - 9 0.000 0.021
+2023-08-25 18:14:28,174 3552 INFO maimex2 werkzeug: 192.168.4.1 - - [25/Aug/2023 18:14:28] "POST /web/dataset/call_kw/stock.picking.type/name_get HTTP/1.1" 200 - 3 0.000 0.016
+2023-08-25 18:14:28,200 3552 INFO maimex2 werkzeug: 192.168.4.1 - - [25/Aug/2023 18:14:28] "POST /web/dataset/call_kw/res.users/has_group HTTP/1.1" 200 - 2 0.000 0.000
+2023-08-25 18:14:28,231 3552 INFO maimex2 werkzeug: 192.168.4.1 - - [25/Aug/2023 18:14:28] "POST /web/dataset/call_kw/stock.picking/web_search_read HTTP/1.1" 200 - 21 0.000 0.031
+2023-08-25 18:17:28,713 3552 INFO maimex2 werkzeug: 192.168.4.1 - - [25/Aug/2023 18:17:28] "POST /web/dataset/call_kw/stock.picking/onchange HTTP/1.1" 200 - 12 0.007 0.018
+2023-08-25 18:17:28,987 3552 INFO maimex2 werkzeug: 192.168.4.1 - - [25/Aug/2023 18:17:28] "GET /web/image/res.partner/9/avatar_128 HTTP/1.1" 304 - 6 0.000 0.016
+2023-08-25 18:17:41,721 3552 INFO maimex2 werkzeug: 192.168.4.1 - - [25/Aug/2023 18:17:41] "POST /web/dataset/call_kw/res.partner/name_search HTTP/1.1" 200 - 7 0.016 0.016
+2023-08-25 18:19:12,395 3552 INFO maimex2 werkzeug: 192.168.4.1 - - [25/Aug/2023 18:19:12] "POST /web/dataset/call_kw/stock.picking/web_search_read HTTP/1.1" 200 - 15 0.021 0.015
+2023-08-25 18:21:51,659 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 18:21:51] "POST /web/dataset/call_kw/stock.picking/create HTTP/1.1" 200 - 45 0.041 0.068
+2023-08-25 18:21:51,737 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 18:21:51] "POST /mail/thread/data HTTP/1.1" 200 - 11 0.016 0.015
+2023-08-25 18:21:51,737 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 18:21:51] "POST /mail/thread/messages HTTP/1.1" 200 - 19 0.000 0.031
+2023-08-25 18:21:51,752 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 18:21:51] "POST /web/dataset/call_kw/stock.picking.type/web_search_read HTTP/1.1" 200 - 10 0.015 0.016
+2023-08-25 18:22:04,804 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 18:22:04] "POST /web/dataset/call_button HTTP/1.1" 200 - 11 0.008 0.018
+2023-08-25 18:22:04,858 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 18:22:04] "POST /web/dataset/call_kw/stock.picking.type/name_get HTTP/1.1" 200 - 3 0.003 0.007
+2023-08-25 18:22:04,878 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 18:22:04] "POST /web/dataset/call_kw/stock.picking/web_search_read HTTP/1.1" 200 - 15 0.001 0.005
+2023-08-25 18:24:29,365 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 18:24:29] "POST /web/dataset/call_kw/stock.picking/onchange HTTP/1.1" 200 - 11 0.005 0.021
+2023-08-25 18:30:40,860 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 18:30:40] "POST /mail/inbox/messages HTTP/1.1" 200 - 5 0.006 0.011
+2023-08-25 18:30:40,878 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 18:30:40] "POST /web/dataset/call_kw/mail.channel/channel_fetch_preview HTTP/1.1" 200 - 26 0.019 0.018
+2023-08-25 18:30:40,924 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 18:30:40] "GET /web/image/res.partner/8/avatar_128 HTTP/1.1" 304 - 6 0.000 0.016
+2023-08-25 18:30:40,924 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 18:30:40] "GET /web/image/res.partner/2/avatar_128 HTTP/1.1" 304 - 7 0.016 0.000
+2023-08-25 18:30:40,940 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 18:30:40] "GET /web/image/res.partner/9/avatar_128 HTTP/1.1" 304 - 6 0.000 0.031
+2023-08-25 18:30:42,518 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 18:30:42] "POST /mail/channel/messages HTTP/1.1" 200 - 17 0.015 0.063
+2023-08-25 18:30:42,518 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 18:30:42] "POST /web/dataset/call_kw/mail.channel/channel_fold HTTP/1.1" 200 - 15 0.015 0.063
+2023-08-25 18:30:42,533 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 18:30:42] "GET /web/bundle/mail.assets_model_data?lang=es_MX&debug=assets HTTP/1.1" 200 - 5 0.016 0.000
+2023-08-25 18:30:42,655 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 18:30:42] "GET /mail/channel/7/partner/9/avatar_128 HTTP/1.1" 200 - 9 0.013 0.014
+2023-08-25 18:30:42,659 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 18:30:42] "GET /mail/channel/7/partner/3/avatar_128 HTTP/1.1" 200 - 9 0.013 0.014
+2023-08-25 18:30:42,659 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 18:30:42] "GET /web/assets/debug/mail.assets_model_data.js HTTP/1.1" 200 - 5 0.001 0.008
+2023-08-25 18:30:44,441 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 18:30:44] "POST /web/dataset/call_kw/mail.channel/channel_fold HTTP/1.1" 200 - 8 0.000 0.069
+2023-08-25 18:30:55,122 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 18:30:55] "POST /web/dataset/call_kw/mail.channel/channel_fold HTTP/1.1" 200 - 8 0.006 0.176
+2023-08-25 18:30:56,159 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 18:30:56] "POST /mail/channel/notify_typing HTTP/1.1" 200 - 11 0.016 0.037
+2023-08-25 18:31:14,580 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 18:31:14] "POST /mail/channel/notify_typing HTTP/1.1" 200 - 11 0.016 0.031
+2023-08-25 18:31:17,097 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 18:31:17] "POST /mail/channel/notify_typing HTTP/1.1" 200 - 11 0.007 0.043
+2023-08-25 18:31:23,836 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 18:31:23] "POST /mail/channel/notify_typing HTTP/1.1" 200 - 11 0.016 0.052
+2023-08-25 18:31:24,034 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 18:31:24] "POST /mail/message/post HTTP/1.1" 200 - 24 0.014 0.056
+2023-08-25 18:31:24,065 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 18:31:24] "POST /mail/link_preview HTTP/1.1" 200 - 5 0.000 0.000
+2023-08-25 18:31:24,341 3552 INFO maimex2 odoo.service.model: SERIALIZATION_FAILURE, 4 tries left, try again in 1.6106 sec... 
+2023-08-25 18:31:24,491 3552 INFO maimex2 werkzeug: 192.168.4.1 - - [25/Aug/2023 18:31:24] "POST /mail/channel/messages HTTP/1.1" 200 - 17 0.023 0.184
+2023-08-25 18:31:24,492 3552 INFO maimex2 werkzeug: 192.168.4.1 - - [25/Aug/2023 18:31:24] "POST /web/dataset/call_kw/mail.channel/channel_fetched HTTP/1.1" 200 - 18 0.038 0.170
+2023-08-25 18:31:24,504 3552 INFO maimex2 werkzeug: 192.168.4.1 - - [25/Aug/2023 18:31:24] "GET /web/image/res.company/1/favicon HTTP/1.1" 304 - 5 0.002 0.108
+2023-08-25 18:31:26,002 3552 INFO maimex2 werkzeug: 192.168.4.1 - - [25/Aug/2023 18:31:26] "POST /web/dataset/call_kw/mail.channel/channel_fold HTTP/1.1" 200 - 22 0.022 1.696
+2023-08-25 18:31:29,798 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 18:31:29] "POST /web/dataset/call_kw/mail.channel/channel_fold HTTP/1.1" 200 - 8 0.002 0.046
+2023-08-25 18:34:14,284 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 18:34:14] "POST /web/dataset/call_kw/mail.channel/channel_fold HTTP/1.1" 200 - 8 0.000 0.063
+2023-08-25 18:34:17,200 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 18:34:17] "POST /web/dataset/call_kw/mail.channel/channel_fold HTTP/1.1" 200 - 8 0.016 0.057
+2023-08-25 18:35:01,894 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 18:35:01] "POST /web/dataset/call_kw/mail.channel/channel_fold HTTP/1.1" 200 - 8 0.000 0.174
+2023-08-25 18:35:03,941 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 18:35:03] "POST /web/dataset/call_kw/mail.channel/channel_fold HTTP/1.1" 200 - 8 0.005 0.043
+2023-08-25 18:53:14,424 3552 INFO maimex2 werkzeug: 192.168.4.201 - - [25/Aug/2023 18:53:14] "GET /websocket HTTP/1.1" 101 - 1 0.000 0.000
+2023-08-25 19:05:53,159 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 19:05:53] "POST /web/dataset/call_kw/res.partner/name_search HTTP/1.1" 200 - 3 0.000 0.000
+2023-08-25 19:05:55,409 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 19:05:55] "POST /web/dataset/call_kw/stock.picking.type/web_search_read HTTP/1.1" 200 - 10 0.000 0.015
+2023-08-25 19:05:57,497 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 19:05:57] "POST /web/dataset/call_button HTTP/1.1" 200 - 11 0.016 0.010
+2023-08-25 19:05:57,534 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 19:05:57] "POST /web/dataset/call_kw/stock.picking.type/name_get HTTP/1.1" 200 - 3 0.000 0.016
+2023-08-25 19:05:57,565 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 19:05:57] "POST /web/dataset/call_kw/stock.picking/web_search_read HTTP/1.1" 200 - 15 0.000 0.031
+2023-08-25 19:06:09,622 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 19:06:09] "POST /web/dataset/call_kw/stock.picking/web_search_read HTTP/1.1" 200 - 15 0.010 0.031
+2023-08-25 19:06:10,560 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 19:06:10] "POST /web/dataset/call_kw/stock.picking/web_search_read HTTP/1.1" 200 - 15 0.009 0.024
+2023-08-25 19:24:00,216 3552 INFO maimex2 werkzeug: 192.168.4.201 - - [25/Aug/2023 19:24:00] "GET /websocket HTTP/1.1" 101 - 1 0.000 0.000
+2023-08-25 19:33:57,449 3552 INFO maimex2 werkzeug: 192.168.4.28 - - [25/Aug/2023 19:33:57] "GET /websocket HTTP/1.1" 101 - 1 0.000 0.008
